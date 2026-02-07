@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SF6ComboCalculator", "SF6ComboCalculator\SF6ComboCalculator.csproj", "{1B8292A5-A76F-4800-8B80-F8A0F23C3871}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SF6ComboCalculator.Tests", "SF6ComboCalculator.Tests\SF6ComboCalculator.Tests.csproj", "{6BE6B3B7-8895-47C5-A246-9699A038A776}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SF6ComboCalculator.Console", "SF6ComboCalculator.Console\SF6ComboCalculator.Console.csproj", "{FF1A8720-3E6D-41E7-96F0-1DBA497E53E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B8292A5-A76F-4800-8B80-F8A0F23C3871}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B8292A5-A76F-4800-8B80-F8A0F23C3871}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B8292A5-A76F-4800-8B80-F8A0F23C3871}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B8292A5-A76F-4800-8B80-F8A0F23C3871}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BE6B3B7-8895-47C5-A246-9699A038A776}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BE6B3B7-8895-47C5-A246-9699A038A776}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BE6B3B7-8895-47C5-A246-9699A038A776}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BE6B3B7-8895-47C5-A246-9699A038A776}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF1A8720-3E6D-41E7-96F0-1DBA497E53E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF1A8720-3E6D-41E7-96F0-1DBA497E53E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF1A8720-3E6D-41E7-96F0-1DBA497E53E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF1A8720-3E6D-41E7-96F0-1DBA497E53E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+EndGlobal
