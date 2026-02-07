@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SF6ComboCalculator.Tests", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SF6ComboCalculator.Console", "SF6ComboCalculator.Console\SF6ComboCalculator.Console.csproj", "{FF1A8720-3E6D-41E7-96F0-1DBA497E53E8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SF6ComboCalculator.Data", "SF6ComboCalculator.Data\SF6ComboCalculator.Data.csproj", "{5A98A902-26AE-45FC-B7B4-5B6446F2FF4A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +26,10 @@ Global
 		{FF1A8720-3E6D-41E7-96F0-1DBA497E53E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF1A8720-3E6D-41E7-96F0-1DBA497E53E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF1A8720-3E6D-41E7-96F0-1DBA497E53E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A98A902-26AE-45FC-B7B4-5B6446F2FF4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A98A902-26AE-45FC-B7B4-5B6446F2FF4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A98A902-26AE-45FC-B7B4-5B6446F2FF4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A98A902-26AE-45FC-B7B4-5B6446F2FF4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection

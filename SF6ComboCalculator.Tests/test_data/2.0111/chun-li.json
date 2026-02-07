@@ -1,0 +1,106 @@
+[
+  {
+    "comboNotation": "2HP (PC) > 236HK, j.2MK > j.236KK",
+    "expectedDamage": 3440
+  },
+  {
+    "comboNotation": "2HP (PC) > 236HK, j.2MK > j.236KK, SA1",
+    "expectedDamage": 4290
+  },
+  {
+    "comboNotation": "2HP (PC) > ss.HK, j.MP > j.SA1",
+    "expectedDamage": 3660
+  },
+  {
+    "comboNotation": "2HP (PC) > ss.MK > 28HK",
+    "expectedDamage": 3000
+  },
+  {
+    "comboNotation": "2HP (PC) > ss.MK > 28KK, 236LK, SA1",
+    "expectedDamage": 4100
+  },
+  {
+    "comboNotation": "2HP (PC) > ss.MK > DRC 2HP > ss.MK > 28HK",
+    "expectedDamage": 3673
+  },
+  {
+    "comboNotation": "2HP > 236HK, 22HK",
+    "expectedDamage": 2860
+  },
+  {
+    "comboNotation": "2HP > 236HK, SA3",
+    "expectedDamage": 5100
+  },
+  {
+    "comboNotation": "2HP > SA2, dl. j.MP(1), 236HK, 22HK",
+    "expectedDamage": 3810
+  },
+  {
+    "comboNotation": "2HP > ss.HK, j.2MK, j.2MK, j.5HP~j.5HP",
+    "expectedDamage": 2600
+  },
+  {
+    "comboNotation": "2HP > ss.HK, j.2MK~j.2MK > j.236HK(4)",
+    "expectedDamage": 2578
+  },
+  {
+    "comboNotation": "2HP > ss.HK, j.MP > j.236HK(4)",
+    "expectedDamage": 2696
+  },
+  {
+    "comboNotation": "2HP > ss.HK, j.MP > j.236KK",
+    "expectedDamage": 3200
+  },
+  {
+    "comboNotation": "2MK > DRC 5MP, 4HP > ss.LK > DRC 4HP > ss.HK, j.2MK, j.2MK, j.HP~HP, SA3",
+    "expectedDamage": 4415
+  },
+  {
+    "comboNotation": "2MP (PC), ss.MK > [2]8HK",
+    "expectedDamage": 2640
+  },
+  {
+    "comboNotation": "5HK (PC) > ss.MK > 28HK",
+    "expectedDamage": 2700
+  },
+  {
+    "comboNotation": "5HK > ss.MK > 28HK",
+    "expectedDamage": 2520
+  },
+  {
+    "comboNotation": "5HK > ss.MK > 28MK",
+    "expectedDamage": 2380
+  },
+  {
+    "comboNotation": "5LP (CH), 2MK > 28MK",
+    "expectedDamage": 1600
+  },
+  {
+    "comboNotation": "5MP, 2MP > [2]8KK, 236LK, 22HK",
+    "expectedDamage": 3120
+  },
+  {
+    "comboNotation": "DR 4HP (PC) > 214HK, 2MP > 28HK",
+    "expectedDamage": 3620
+  },
+  {
+    "comboNotation": "DR 4HP (PC) > 214HK, 2MP > 28KK, 236LK, 22HK",
+    "expectedDamage": 4280
+  },
+  {
+    "comboNotation": "DR 4HP (PC) > 214HK, 2MP > 28KK, DR 5LP > ss.MK > 22HK",
+    "expectedDamage": 4097
+  },
+  {
+    "comboNotation": "DR 4HP (PC) > 214HK, 2MP > DRC 2HP > ss.MK > 46PP, 5MP, 2MP > DRC 2HP > ss.HK, j.2MK, j.2MK, j.HP~HP, SA3",
+    "expectedDamage": 6604
+  },
+  {
+    "comboNotation": "j.HK, 4HP > 236HK",
+    "expectedDamage": 2400
+  },
+  {
+    "comboNotation": "j.HP, 5HK > ss.MK > 28HK",
+    "expectedDamage": 3320
+  }
+]

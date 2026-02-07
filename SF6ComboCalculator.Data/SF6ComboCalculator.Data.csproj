@@ -5,17 +5,12 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
     </PropertyGroup>
-
+    <ItemGroup>
+        <Content Include="data\**">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+    </ItemGroup>
     <ItemGroup>
       <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="Serialization\" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <ProjectReference Include="..\SF6ComboCalculator.Data\SF6ComboCalculator.Data.csproj" />
-    </ItemGroup>
-
 </Project>

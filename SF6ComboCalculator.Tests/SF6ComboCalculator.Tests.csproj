@@ -26,4 +26,14 @@
       <ProjectReference Include="..\SF6ComboCalculator\SF6ComboCalculator.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+        <Content Include="test_data\**">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="CharacterComboValidation\2.0001\" />
+    </ItemGroup>
+
 </Project>

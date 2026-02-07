@@ -1,4 +1,5 @@
 using System.Text.RegularExpressions;
+using SF6ComboCalculator.Data;
 using SF6ComboCalculator.Interfaces;
 using SF6ComboCalculator.Serialization;
 
@@ -6,15 +7,17 @@ namespace SF6ComboCalculator;
 
 public class ComboParser
 {
-    private readonly string _dataJsonPath;
-    private readonly CharacterParser _characterParser;
     private readonly AttackModel[] _attacks;
 
-    public ComboParser(string dataJsonPath)
+    public ComboParser(AttackModel[] attacks)
     {
-        _dataJsonPath = dataJsonPath;
-        _characterParser =  new CharacterParser();
-        _attacks = _characterParser.Parse(dataJsonPath);
+        _attacks = attacks; 
+    }
+    
+    public static ComboParser From(string characterName, string version)
+    {
+        var fetcher = new Fetcher();
+        return new ComboParser(fetcher.FetchAttacks(characterName, version));
     }
 
 
@@ -171,4 +174,6 @@ public class ComboParser
 
         return (cleanString.Trim(), isDrEnhanced, numberOfHits, isPunishCounter, isCounterHit);
     }
+
+   
 }
