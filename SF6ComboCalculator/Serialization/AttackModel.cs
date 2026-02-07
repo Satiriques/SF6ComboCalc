@@ -1,5 +1,7 @@
-namespace SF6ComboCalculator;
+#pragma warning disable CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring as nullable.
+namespace SF6ComboCalculator.Serialization;
 
+// ReSharper disable once ClassNeverInstantiated.Global
 public class AttackModel
 {
     public string Notation { get; set; }

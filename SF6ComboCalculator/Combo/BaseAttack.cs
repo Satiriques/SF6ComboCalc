@@ -1,11 +1,11 @@
 using SF6ComboCalculator.Interfaces;
 
-namespace SF6ComboCalculator;
+namespace SF6ComboCalculator.Combo;
 
 public abstract class BaseAttack : IAttack
 {
-    public string Notation { get; set; }
-    public string[] Aliases { get; set; }
+    public required string Notation { get; set; }
+    public required string[] Aliases { get; set; }
     
     public decimal StarterScaling { get; set; }
     public decimal ComboScaling { get; set; }

@@ -58,7 +58,7 @@ public class ChunLiComboTests : TestCore
             { "5MP, 2MP > [2]8KK, 236LK, 22HK", [1M,1M,.8M,.7M,.6M] },
             { "2MK > DRC 5MP, 4HP > ss.LK > 28MK", [1M, .68M, .59M, .51M, .42M]},
             { "2MK > DRC 5MP, 4HP > ss.LK > DRC 4HP > ss.HK, j.2MK, j.2MK, j.HP~HP, SA3", [1M, .68M, .59M, .51M, .42M, .34M, .25M, .17M, .08M, .08M,.5M]},
-            { "2HP (PC) > ss.MK > 28HK", [1Mk, 1M, .8M]}
+            { "2HP (PC) > ss.MK > 28HK", [1M, 1M, .8M]}
         };
     
     [Theory]

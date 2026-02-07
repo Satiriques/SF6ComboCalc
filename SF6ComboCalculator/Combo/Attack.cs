@@ -1,3 +1,4 @@
+using SF6ComboCalculator.Combo;
 using SF6ComboCalculator.Interfaces;
 
 namespace SF6ComboCalculator;

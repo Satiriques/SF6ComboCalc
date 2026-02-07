@@ -1,5 +1,6 @@
 using System.Text.RegularExpressions;
 using SF6ComboCalculator.Interfaces;
+using SF6ComboCalculator.Serialization;
 
 namespace SF6ComboCalculator;
 
@@ -25,7 +26,7 @@ public class ComboParser
         var numberOfHitRegex = new Regex(@"\((\d+)\)");
         
         var splittedString = comboNotation.Split('>', ',');
-        var adapte = new AttackModelAdapter();
+        var adapter = new AttackModelAdapter();
 
         for (var index = 0; index < splittedString.Length; index++)
         {
@@ -33,7 +34,7 @@ public class ComboParser
             var (cleanString, isDrEnhanced, numberOfHits, isPunishCounter, isCounterHit) =
                 CleanupAttackString(str, numberOfHitRegex, index);
 
-            var attack = adapte.Adapt(FindAttack(cleanString));
+            var attack = adapter.Adapt(FindAttack(cleanString));
             attack.NumberOfHits = numberOfHits;
 
             var attacksToAdd = new List<IAttack>();
@@ -57,14 +58,13 @@ public class ComboParser
         
         // calculate the damage
         decimal baseScaling = 1;
-        int totalDamage = 0;
+        var totalDamage = 0;
         var hasStarterScaling = false;
         var drScaling = 1m;
-        bool airborne = false;
+        var airborne = false;
 
         for (var index = 0; index < combo.Count; index++)
         {
-            var counterScaling = 1m;
             var attack = combo[index];
 
             if (attack.IsDrEnhanced)
@@ -72,13 +72,6 @@ public class ComboParser
                 drScaling = .85M; // 15% penalty
             }
 
-            if (attack.IsCounterHit || attack.IsPunishCounter)
-            {
-                // todo: not sure yet if it multiplicative with the dr scaling, need to check
-                // test with 5HK (starter scaling)
-                counterScaling = 1.2M;
-            }
-            
             var damage = attack.CalculateDamage(baseScaling * drScaling, airborne);
             totalDamage += damage;
 
@@ -138,13 +131,9 @@ public class ComboParser
     private AttackModel FindAttack(string notation)
     {
         var attack =
-            _attacks.FirstOrDefault(x => x.Notation.Equals(notation, StringComparison.InvariantCultureIgnoreCase));
-
-        if (attack is null)
-        {
-            attack = _attacks.FirstOrDefault(x =>
+            _attacks.FirstOrDefault(x => x.Notation.Equals(notation, StringComparison.InvariantCultureIgnoreCase)) ??
+            _attacks.FirstOrDefault(x =>
                 x.Aliases.Contains(notation, StringComparer.InvariantCultureIgnoreCase));
-        }
 
         return attack ?? throw new ArgumentException($"attack with notation or alias  \"{notation}\" was not found in the json.");
     }

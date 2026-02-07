@@ -1,4 +1,5 @@
 using SF6ComboCalculator.Interfaces;
+using SF6ComboCalculator.Serialization;
 
 namespace SF6ComboCalculator;
 

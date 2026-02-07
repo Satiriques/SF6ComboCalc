@@ -1,3 +1,4 @@
+using SF6ComboCalculator.Combo;
 using SF6ComboCalculator.Interfaces;
 
 namespace SF6ComboCalculator;
@@ -19,8 +20,6 @@ public class MultiHitAttack : BaseAttack
         return Truncate(Math.Max(baseScaling, MinimumScaling),2);
     }
     
-    public int[] Damage { get; set; }
-    public int[]? AirborneDamage { get; set; }
-
-    
+    public required int[] Damage { get; init; }
+    public int[]? AirborneDamage { get; init; }
 }
