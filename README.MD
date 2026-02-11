@@ -4,6 +4,10 @@ Allows you to calculate the damage of a combo by passing the numpad notation.
 `calculator "chun-li" "5HK > ss.MK > 28HK"`   
 `==> 2520`
 
+This software won't tell you if a combo is possible in game or not.
+
+---
+
 The solution contains 4 projects:
 
 **SF6ComboCalculator** : the code that does the calculation  
@@ -15,6 +19,7 @@ If you want to use it in your .NET program, you only need SF6ComboCalculator and
 
 This software is a work in progress.
 
+---
 ## Usage
 
 ## Compiling
