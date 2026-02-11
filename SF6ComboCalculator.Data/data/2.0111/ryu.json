@@ -1,1 +1,243 @@
-[{}]
+[
+  {
+    "notation": "5LP",
+    "damage": [300],
+    "starterScaling": 0.20
+  },
+  {
+    "notation": "5MP",
+    "damage": [600]
+  },
+  {
+    "notation": "5HP",
+    "damage": [800]
+  },
+  {
+    "notation": "5LK",
+    "damage": [300],
+    "starterScaling": 0.20
+  },
+  {
+    "notation": "5MK",
+    "damage": [700]
+  },
+  {
+    "notation": "5HK",
+    "damage": [900]
+  },
+  {
+    "notation": "2LP",
+    "damage": [300],
+    "starterScaling": 0.20
+  },
+  {
+    "notation": "2MP",
+    "damage": [600]
+  },
+  {
+    "notation": "2HP",
+    "damage": [800]
+  },
+  {
+    "notation": "2LK",
+    "damage": [200],
+    "starterScaling": 0.20
+  },
+  {
+    "notation": "2MK",
+    "damage": [500],
+    "starterScaling": 0.20
+  },
+  {
+    "notation": "2HK",
+    "damage": [900]
+  },
+  {
+    "notation": "j.LP",
+    "damage": [300]
+  },
+  {
+    "notation": "j.MP",
+    "damage": [350,350]
+  },
+  {
+    "notation": "j.HP",
+    "damage": [800]
+  },
+  {
+    "notation": "j.LK",
+    "damage": [300]
+  },
+  {
+    "notation": "j.MK",
+    "damage": [500]
+  },
+  {
+    "notation": "j.HK",
+    "damage": [800]
+  },
+  {
+    "notation": "6MP",
+    "damage": [900]
+  },
+  {
+    "notation": "6HP",
+    "damage": [900]
+  },
+  {
+    "notation": "4HP",
+    "damage": [900]
+  },
+  {
+    "notation": "4HK",
+    "damage": [900]
+  },
+  {
+    "notation": "6HK",
+    "damage": [800],
+    "makesAirborne" : true
+  },
+  {
+    "notation": "5MP~LK",
+    "damage": [900],
+    "isTargetCombo": true
+  },
+  {
+    "notation": "5MP~LK~HK",
+    "damage": [900],
+    "isTargetCombo": true
+  },
+  {
+    "notation": "5HP~HK",
+    "damage": [900],
+    "isTargetCombo": true
+  },
+  {
+    "notation": "236LP",
+    "damage": [700]
+  },
+  {
+    "notation": "236MP",
+    "damage": [700]
+  },
+  {
+    "notation": "236HP",
+    "damage": [700]
+  },
+  {
+    "notation": "236PP",
+    "damage": [500,500],
+    "starterScaling": 0.20,
+    "numberOfExtraScalingHits" : 1
+  },
+  {
+    "notation": "236HP (c)",
+    "damage": [500,500],
+    "note" : "not sure yet how to represent denshin charge",
+    "starterScaling": 0.20,
+    "numberOfExtraScalingHits" : 1
+  },
+  {
+    "notation": "236PP (c)",
+    "damage": [400,400,400],
+    "starterScaling": 0.20,
+    "numberOfExtraScalingHits" : 1
+  },
+  {
+    "notation": "623LP",
+    "damage": [1100],
+    "starterScaling": 0.30
+  },
+  {
+    "notation": "623MP",
+    "damage": [1200],
+    "starterScaling": 0.30
+  },
+  {
+    "notation": "623HP",
+    "damage": [1400],
+    "starterScaling": 0.30
+  },
+  {
+    "notation": "623PP",
+    "damage": [800,800]
+  },
+  {
+    "notation": "214LK",
+    "damage": [900]
+  },
+  {
+    "notation": "214MK",
+    "damage": [1000]
+  },
+  {
+    "notation": "214HK",
+    "damage": [1200]
+  },
+  {
+    "notation": "214KK",
+    "damage": [200,200,200,200,200]
+  },
+  {
+    "notation": "j.214K",
+    "damage": [900],
+    "starterScaling": 0.30
+  },
+  {
+    "notation": "6HK~214K",
+    "damage": [900],
+    "isTargetCombo" : true
+  },
+  {
+    "notation": "j.214KK",
+    "damage": [300,200,200,200,600],
+    "comboScaling" : 0.15
+  },
+  {
+    "notation": "6HK~214KK",
+    "damage": [300,200,200,200,600],
+    "isTargetCombo" : true,
+    "comboScaling" : 0.15
+  },
+  {
+    "notation": "236LK",
+    "damage": [1100]
+  },
+  {
+    "notation": "236MK",
+    "damage": [1200]
+  },
+  {
+    "notation": "236HK",
+    "damage": [1300]
+  },
+  {
+    "notation": "236KK",
+    "damage": [800]
+  },
+  {
+    "notation": "214LP",
+    "damage": [700]
+  },
+  {
+    "notation": "214MP",
+    "damage": [800]
+  },
+  {
+    "notation": "214HP",
+    "damage": [400,400]
+  },
+  {
+    "notation": "214PP",
+    "damage": [1100],
+    "numberOfExtraScalingHits" : 1
+  },
+  {
+    "notation": "214HP (c)",
+    "damage": [400,400]
+  },
+  {
+    "notation": "214PP (c)",
+    "damage": [800]
+  }
+]

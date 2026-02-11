@@ -6,6 +6,6 @@ namespace SF6ComboCalculator.Tests.data;
  */
 public class DataModel
 {
-    public string ComboNotation { get; set; }
+    public required string ComboNotation { get; set; }
     public int ExpectedDamage { get; set; }
 }
