@@ -11,10 +11,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Serialization\" />
-    </ItemGroup>
-
-    <ItemGroup>
       <ProjectReference Include="..\SF6ComboCalculator.Data\SF6ComboCalculator.Data.csproj" />
     </ItemGroup>
 
