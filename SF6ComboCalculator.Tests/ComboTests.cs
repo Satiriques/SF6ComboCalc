@@ -1,10 +1,7 @@
-using Newtonsoft.Json;
 using SF6ComboCalculator.Tests.Core;
-using SF6ComboCalculator.Tests.data;
 
-namespace SF6ComboCalculator.Tests.CharacterComboValidation._2._0001;
+namespace SF6ComboCalculator.Tests;
 
-//todo: move the notation and expected damage to a json file so it's easier to add new test 
 public class ComboTests : TestCore
 {
     public static IEnumerable<object[]> ComboTestData()
@@ -26,6 +23,7 @@ public class ComboTests : TestCore
         Assert.Equal(damageExpected, result.TotalDamage);
     }
 
+    // todo: add a new key value in the existing test jsons to do this test
     // public static TheoryData<string, decimal[]> ComboScalingTestData =>
     //     new()
     //     {
