@@ -23,7 +23,8 @@
   },
   {
     "notation" : "5HK",
-    "damage" : [400,400]
+    "damage" : [400,400],
+    "numberOfExtraScalingHits" : 1
   },
   {
     "notation" : "2LP",
@@ -180,7 +181,8 @@
   },
   {
     "notation" : "214LK",
-    "damage" : [600]
+    "damage" : [600],
+    "numberOfExtraScalingHits" : 1
   },
   {
     "notation" : "214MK",
@@ -189,6 +191,10 @@
   {
     "notation" : "214HK",
     "damage" : [400,300,300,600]
+  },
+  {
+    "notation" : "214KK",
+    "damage" : [200,200,200,100,300]
   },
   {
     "notation" : "j.214K",
@@ -218,18 +224,22 @@
   },
   {
     "notation" : "214LP~6P",
-    "damage" : [500]
+    "damage" : [500],
+    "isTargetCombo" : true
   },
   {
     "notation" : "214MP~6P",
-    "damage" : [600]
+    "damage" : [600],
+    "isTargetCombo" : true
   },
   {
     "notation" : "214HP~6P",
-    "damage" : [600]
+    "damage" : [600],
+    "isTargetCombo" : true
   },
   {
     "notation" : "214PP~6P",
-    "damage" : [300,400]
+    "damage" : [300,400],
+    "isTargetCombo" : true
   }
 ]

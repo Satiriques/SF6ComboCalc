@@ -1,0 +1,90 @@
+[
+  {
+    "comboNotation": "5HK, 5MK > 214LK, 2HK",
+    "expectedDamage": 0
+  },
+  {
+    "comboNotation": "5HP > DRC 6HP, 2HP > 214HK",
+    "expectedDamage": 0
+  },
+  {
+    "comboNotation": "2LP > 2LP > 2LP > 623HP",
+    "expectedDamage": 1650,
+    "note" : "untested"
+  },
+  {
+    "comboNotation": "5LP > 2LK > 2LP > 214LK, 2HK",
+    "expectedDamage": 1390,
+    "note" : "untested"
+  },
+  {
+    "comboNotation": "2MP, 2MP > 214MP~6P",
+    "expectedDamage": 2260,
+    "note" : "untested"
+  },
+  {
+    "comboNotation": "2MP, 5MP~MP > 214MP~6P",
+    "expectedDamage": 2540,
+    "note" : "untested"
+  },
+  {
+    "comboNotation": "5HK, 5MK > 214LK, 2HK",
+    "expectedDamage": 2520,
+    "note" : "untested"
+  },
+  {
+    "comboNotation": "5HP > 214HP~6P",
+    "expectedDamage": 2180,
+    "note" : "untested"
+  },
+  {
+    "comboNotation": "j.HK, 5HK, 5MK > 214LK, 623HP",
+    "expectedDamage": 3050,
+    "note" : "untested"
+  },
+  {
+    "comboNotation": "DI (block) 2HP > 236LP, 214HK",
+    "expectedDamage": 2304,
+    "note" : "untested, need to add stuff for DI (block)"
+  },
+  {
+    "comboNotation": "(PC) DI 2HP > 214HK",
+    "expectedDamage": 2800,
+    "note" : "untested"
+  },
+  {
+    "comboNotation": "(PC) DI 5HK, 5MK > 214HK",
+    "expectedDamage": 2820,
+    "note" : "untested"
+  },
+  {
+    "comboNotation": "(PC) DI 4HK > 236LP, DR 5HP > 214HP~6P",
+    "expectedDamage": 3080,
+    "note" : "untested"
+  },
+  {
+    "comboNotation": "(PC) DI 4HK > 236KK~214K, 214HK",
+    "expectedDamage": 3310,
+    "note" : "untested"
+  },
+  {
+    "comboNotation": "(PC) DI 4HK > 236KK~214K, 623LP > SA3",
+    "expectedDamage": 5060,
+    "note" : "untested"
+  },
+  {
+    "comboNotation": "DR 6MP, 5MK > 214LK, 623HP",
+    "expectedDamage": 2680,
+    "note" : "untested"
+  },
+  {
+    "comboNotation": "DR 6MP, 5MK > 214HK",
+    "expectedDamage": 2580,
+    "note" : "untested"
+  },
+  {
+    "comboNotation": "(PC) 214HP, 4HK > 214KK, 214HK",
+    "expectedDamage": 3800,
+    "note" : "untested"
+  }
+]

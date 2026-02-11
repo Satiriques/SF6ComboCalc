@@ -1,4 +1,5 @@
 using SF6ComboCalculator.Tests.Core;
+using Xunit.Sdk;
 
 namespace SF6ComboCalculator.Tests;
 
