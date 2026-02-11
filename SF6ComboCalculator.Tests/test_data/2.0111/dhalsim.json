@@ -1,2 +1,18 @@
 [
+  {
+    "comboNotation": "1HP > 63214HK > SA3",
+    "expectedDamage" : 4800
+  },
+  {
+    "comboNotation": "2LP > 2LP > 236MP ",
+    "expectedDamage" : 960
+  },
+  {
+    "comboNotation": "2LP > 2LP > 63214MK",
+    "expectedDamage" : 1380
+  },
+  {
+    "comboNotation": "2LP > 2LP > DRC 5LP, 4MP > 63214HK",
+    "expectedDamage" : 1578
+  }
 ]

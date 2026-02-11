@@ -102,5 +102,13 @@
   {
     "comboNotation": "j.HP, 5HK > ss.MK > 28HK",
     "expectedDamage": 3320
+  },
+  {
+    "comboNotation": "2HP (PC) > 214KK, 22HK",
+    "expectedDamage": 3120
+  },
+  {
+    "comboNotation": "j.2MK~j.2MK~j.2MK > j.SA1",
+    "expectedDamage": 2230
   }
 ]

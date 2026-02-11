@@ -154,7 +154,7 @@
     "notation" : "214KK",
     "damage" : [1200],
     "starterScaling" : 0.20,
-    "numberOfExtraScalingHits" : 2
+    "numberOfExtraScalingHits" : 1
   },
   {
     "notation" : "46LP",
@@ -202,11 +202,17 @@
   },
   {
     "notation" : "j.2MK",
-    "damage" : [300]
+    "damage" : [300],
+    "starterScaling" : 0.15
   },
   {
     "notation" : "j.2MK~j.2MK",
     "damage" : [300],
+    "isTargetCombo" : true
+  },
+  {
+    "notation" : "j.2MK~j.2MK~j.2MK",
+    "damage" : [500],
     "isTargetCombo" : true
   },
   {
