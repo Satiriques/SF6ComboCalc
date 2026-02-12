@@ -8,20 +8,24 @@ public class ComboTests : TestCore
     public static IEnumerable<object[]> ComboTestData()
     {
         GenerateDataForTests();
-        
-        return _data.Select(data => (object[])[data.Item1, data.Item2, data.Item3, data.Item4]);
+
+        return _data.Select(data => (object[])[data.Item1, data.Item2, data.Item3, data.Item4, data.Item5]);
     }
 
     [Theory]
     [MemberData(nameof(ComboTestData))]
     public void Combo_does_correct_amount_of_total_damage(string version, string characterName, string notation,
-        int damageExpected)
+        int damageExpected, decimal[] expectedScaling)
     {
         var comboParser = ComboParser.From(characterName, version);
-        
+
         var result = comboParser.Parse(notation);
-        
+
         Assert.Equal(damageExpected, result.TotalDamage);
+        if (expectedScaling is not null)
+        {
+            Assert.True(Enumerable.SequenceEqual(expectedScaling, result.ScalingPerAttack));
+        }
     }
 
     // todo: add a new key value in the existing test jsons to do this test

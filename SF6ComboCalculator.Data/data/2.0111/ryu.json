@@ -82,15 +82,15 @@
   },
   {
     "notation": "6HP",
-    "damage": [900]
+    "damage": [400,400]
   },
   {
     "notation": "4HP",
-    "damage": [900]
+    "damage": [800]
   },
   {
     "notation": "4HK",
-    "damage": [900]
+    "damage": [400,400]
   },
   {
     "notation": "6HK",
@@ -109,7 +109,7 @@
   },
   {
     "notation": "5HP~HK",
-    "damage": [900],
+    "damage": [1000],
     "isTargetCombo": true
   },
   {
@@ -213,7 +213,8 @@
   },
   {
     "notation": "236KK",
-    "damage": [800]
+    "damage": [800],
+    "comboScaling": 0.05
   },
   {
     "notation": "214LP",

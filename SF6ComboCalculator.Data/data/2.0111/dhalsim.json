@@ -94,7 +94,7 @@
   },
   {
     "notation": "4HK",
-    "damage": [1000]
+    "damage": [400,400]
   },
   {
     "notation": "1HP",

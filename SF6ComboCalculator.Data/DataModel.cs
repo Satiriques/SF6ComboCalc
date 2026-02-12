@@ -8,4 +8,5 @@ public class DataModel
 {
     public required string ComboNotation { get; set; }
     public int ExpectedDamage { get; set; }
+    public decimal[] ExpectedScaling { get; set; }
 }

@@ -13,7 +13,7 @@ public class TestCore
         return fetcher.GetAllDataFiles();
     }
     
-    protected static readonly List<(string, string, string, int)> _data = [];
+    protected static readonly List<(string, string, string, int, decimal[])> _data = [];
     
     
     protected static void GenerateDataForTests()
@@ -37,7 +37,7 @@ public class TestCore
 
             foreach (var data in deserialized)
             {
-                _data.Add((version, characterName, data.ComboNotation, data.ExpectedDamage));
+                _data.Add((version, characterName, data.ComboNotation, data.ExpectedDamage, data.ExpectedScaling));
             }
         }
     }

@@ -79,7 +79,8 @@ public class ComboParser
             totalDamage += damage;
 
             damagePerAttack.Add(damage);
-            scalingPerAttack.Add(attack.CalculateScaling(baseScaling * drScaling));
+            var scaling = attack.CalculateScaling(baseScaling * drScaling);
+            scalingPerAttack.Add(scaling);
             var numberOfScalingHits = 1 + attack.NumberOfExtraScalingHits;
             
             if (index == 0)
@@ -90,11 +91,11 @@ public class ComboParser
             else if (index == 1 && !hasStarterScaling)
             {
                 numberOfScalingHits++;
-                baseScaling -= numberOfScalingHits * .1m;
+                baseScaling -= numberOfScalingHits * .1m + attack.ComboScaling;
             }
             else
             {
-                baseScaling -= numberOfScalingHits * .1m;
+                baseScaling -= numberOfScalingHits * .1m + attack.ComboScaling;
             }
 
             if (attack.MakesAirborne)

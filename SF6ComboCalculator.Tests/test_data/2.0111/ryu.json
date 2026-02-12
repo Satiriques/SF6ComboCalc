@@ -1,23 +1,19 @@
 [
   {
     "comboNotation": "2LK > 2LP > 5LP > 214LK",
-    "expectedDamage": 1190,
-    "note" : "untested"
+    "expectedDamage": 1190
   },
   {
     "comboNotation": "2LK > 2LP > 5LP > 623HP",
-    "expectedDamage": 1490,
-    "note" : "untested"
+    "expectedDamage": 1490
   },
   {
     "comboNotation": "2LK > 2LP > 2LP > 214MK",
-    "expectedDamage": 1250,
-    "note" : "untested"
+    "expectedDamage": 1250
   },
   {
     "comboNotation": "2LK > 2LP > 2LP > 236LK",
-    "expectedDamage": 1310,
-    "note" : "untested"
+    "expectedDamage": 1310
   },
   {
     "comboNotation": "2LK > 2LP > 5LP > 214KK, 623HP",
@@ -35,7 +31,7 @@
     "note" : "untested"
   },
   {
-    "comboNotation": "5LP (CH), 2MP > 236KK, 4HK > 623HP",
+    "comboNotation": "5LP (CH), 2MP > 236KK, 4HK(1) > 623HP",
     "expectedDamage": 2250,
     "note" : "untested"
   },
@@ -65,7 +61,7 @@
     "note" : "untested"
   },
   {
-    "comboNotation": "(PC) 5LP, 2MK > 236KK, 4HK > 623HP",
+    "comboNotation": "(PC) 5LP, 2MK > 236KK, 4HK(1) > 623HP",
     "expectedDamage": 2170,
     "note" : "untested"
   },
@@ -75,7 +71,7 @@
     "note" : "untested"
   },
   {
-    "comboNotation": "(PC) 5LP, 236KK, 4HK > 623HP",
+    "comboNotation": "(PC) 5LP, 236KK, 4HK(1) > 623HP",
     "expectedDamage": 2030,
     "note" : "untested"
   },
@@ -101,18 +97,15 @@
   },
   {
     "comboNotation": "2MK > 236LP",
-    "expectedDamage": 980,
-    "note" : "untested"
+    "expectedDamage": 1060
   },
   {
     "comboNotation": "2MK > 236MP",
-    "expectedDamage": 980,
-    "note" : "untested"
+    "expectedDamage": 1060
   },
   {
     "comboNotation": "2MK > 236HP",
-    "expectedDamage": 980,
-    "note" : "untested"
+    "expectedDamage": 1060
   },
   {
     "comboNotation": "5MP, 2MP > 214MK",
@@ -150,7 +143,7 @@
     "note" : "untested"
   },
   {
-    "comboNotation": "(CH) 5MP, 2HP > 236KK, 4HP > 623HP",
+    "comboNotation": "(CH) 5MP, 2HP > 236KK, 4HK(1) > 623HP",
     "expectedDamage": 3190,
     "note" : "untested"
   },
@@ -171,12 +164,11 @@
   },
   {
     "comboNotation": "(PC) 5MP, 5HP > 236KK",
-    "expectedDamage": 3190,
-    "note" : "untested"
+    "expectedDamage": 2160
   },
   {
-    "comboNotation": "(PC) 5MP, 5HP > 4HK > 623HP",
-    "expectedDamage": 0,
+    "comboNotation": "(PC) 5MP, 5HP > 236KK, 4HK(1) > 623HP",
+    "expectedDamage": 3190,
     "note" : "untested"
   },
   {
@@ -195,12 +187,12 @@
     "note" : "untested"
   },
   {
-    "comboNotation": "6HK > 214MK",
+    "comboNotation": "6HK~214K",
     "expectedDamage": 1700,
     "note" : "untested"
   },
   {
-    "comboNotation": "6HK > 214KK",
+    "comboNotation": "6HK~214KK",
     "expectedDamage": 2300,
     "note" : "untested"
   },
@@ -225,17 +217,23 @@
     "note" : "untested"
   },
   {
-    "comboNotation": "6HP, 2MP > 236KK, 4HK > 623HP",
+    "comboNotation": "6HP, 2MP > 236KK, 4HK(1) > 623HP",
     "expectedDamage": 3070,
     "note" : "untested"
   },
   {
-    "comboNotation": "6HP, 2MP > 236KK, 4HK > 236LK",
+    "comboNotation": "5HP > DRC 5HP > 236KK, 4HK(1) > 236HP",
+    "expectedDamage": 2244,
+    "expectedScaling": [1,0.85,0.68,0.55,0.46],
+    "note" : "untested"
+  },
+  {
+    "comboNotation": "6HP, 2MP > 236KK, 4HK(1) > 236LK",
     "expectedDamage": 2905,
     "note" : "untested"
   },
   {
-    "comboNotation": "6HP, 2MP > 236KK, 4HK > 236MK",
+    "comboNotation": "6HP, 2MP > 236KK, 4HK(1) > 236MK",
     "expectedDamage": 2960,
     "note" : "untested"
   },
@@ -265,12 +263,12 @@
     "note" : "untested"
   },
   {
-    "comboNotation": "(PC) 236HK, 6HK > 214K",
+    "comboNotation": "(PC) 236HK, 6HK~214K",
     "expectedDamage": 3080,
     "note" : "untested"
   },
   {
-    "comboNotation": "(PC) 236HK, 6HK > 214KK, 236236P",
+    "comboNotation": "(PC) 236HK, 6HK~214KK, 236236P",
     "expectedDamage": 4660,
     "note" : "untested"
   },
@@ -305,78 +303,76 @@
     "note" : "untested"
   },
   {
-    "comboNotation": "5HP > 214HP, 214MK",
-    "expectedDamage": 0,
+    "comboNotation": "(PC) 5HP > 214HP, 214MK",
+    "expectedDamage": 2720
+  },
+  {
+    "comboNotation": "(PC) 5HP > 214HP, 236MK",
+    "expectedDamage": 2520
+  },
+  {
+    "comboNotation": "(PC) 5HP > 214HP, DR 5HP > 214LP, 2HK",
+    "expectedDamage": 3176,
     "note" : "untested"
   },
   {
-    "comboNotation": "5HP > 214HP, 236MK",
-    "expectedDamage": 0,
+    "comboNotation": "(PC) 5HP > 214HP, 214LP, 623HP",
+    "expectedDamage": 3090,
     "note" : "untested"
   },
   {
-    "comboNotation": "5HP > 214HP, DR 5HP > 214LP, 2HK",
-    "expectedDamage": 0,
+    "comboNotation": "(PC) 5HP > 214HP, DR 5HP > 214LP, 623HP",
+    "expectedDamage": 3431,
     "note" : "untested"
   },
   {
-    "comboNotation": "5HP > 214HP, 214LP, 623LP",
-    "expectedDamage": 0,
+    "comboNotation": "(PC) 2HP > 214HP, 214MK",
+    "expectedDamage": 2560,
     "note" : "untested"
   },
   {
-    "comboNotation": "5HP > 214HP, DR 5HP > 214LP, 623HP",
-    "expectedDamage": 0,
+    "comboNotation": "(PC) 2HP > 214HP, 236MK",
+    "expectedDamage": 2720,
     "note" : "untested"
   },
   {
-    "comboNotation": "2HP > 214HP, 214MK",
-    "expectedDamage": 0,
+    "comboNotation": "(PC) 2HP > 214HP, DR 5HP > 214LP, 2HK",
+    "expectedDamage": 3176,
     "note" : "untested"
   },
   {
-    "comboNotation": "2HP > 214HP, 236MK",
-    "expectedDamage": 0,
+    "comboNotation": "(PC) 2HP > 214HP, 214LP, 623LP",
+    "expectedDamage": 3090,
     "note" : "untested"
   },
   {
-    "comboNotation": "2HP > 214HP, DR 5HP > 214LP, 2HK",
-    "expectedDamage": 0,
+    "comboNotation": "(PC) 2HP > 214HP, DR 5HP > 214LP, 623HP",
+    "expectedDamage": 3431,
     "note" : "untested"
   },
   {
-    "comboNotation": "2HP > 214HP, 214LP, 623LP",
-    "expectedDamage": 0,
+    "comboNotation": "(PC) 4HP > 214HP, 214MK",
+    "expectedDamage": 2560,
     "note" : "untested"
   },
   {
-    "comboNotation": "2HP > 214HP, DR 5HP > 214LP, 623HP",
-    "expectedDamage": 0,
+    "comboNotation": "(PC) 4HP > 214HP, 236MK",
+    "expectedDamage": 2720,
     "note" : "untested"
   },
   {
-    "comboNotation": "4HP > 214HP, 214MK",
-    "expectedDamage": 0,
+    "comboNotation": "(PC) 4HP > 214HP, DR 5HP > 214LP, 2HK",
+    "expectedDamage": 3176,
     "note" : "untested"
   },
   {
-    "comboNotation": "4HP > 214HP, 236MK",
-    "expectedDamage": 0,
+    "comboNotation": "(PC) 4HP > 214HP, 214LP, 623LP",
+    "expectedDamage": 3090,
     "note" : "untested"
   },
   {
-    "comboNotation": "4HP > 214HP, DR 5HP > 214LP, 2HK",
-    "expectedDamage": 0,
-    "note" : "untested"
-  },
-  {
-    "comboNotation": "4HP > 214HP, 214LP, 623LP",
-    "expectedDamage": 0,
-    "note" : "untested"
-  },
-  {
-    "comboNotation": "4HP > 214HP, DR 5HP > 214LP, 623HP",
-    "expectedDamage": 0,
+    "comboNotation": "(PC) 4HP > 214HP, DR 5HP > 214LP, 623HP",
+    "expectedDamage": 3431,
     "note" : "untested"
   }
 ]
