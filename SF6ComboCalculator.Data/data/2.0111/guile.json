@@ -1,1 +1,81 @@
-[{}]
+[
+  {
+    "notation": "5LP",
+    "damage": [],
+    "starterScaling": 0.20
+  },
+  {
+    "notation": "5MP",
+    "damage": []
+  },
+  {
+    "notation": "5HP",
+    "damage": [],
+    "starterScaling": 0.20
+  },
+  {
+    "notation": "5LK",
+    "damage": [],
+    "starterScaling": 0.20
+  },
+  {
+    "notation": "5MK",
+    "damage": [],
+    "starterScaling": 0.20
+  },
+  {
+    "notation": "5HK",
+    "damage": []
+  },
+  {
+    "notation": "2LP",
+    "damage": [],
+    "starterScaling": 0.20
+  },
+  {
+    "notation": "2MP",
+    "damage": []
+  },
+  {
+    "notation": "2HP",
+    "damage": []
+  },
+  {
+    "notation": "2LK",
+    "damage": [],
+    "starterScaling": 0.20
+  },
+  {
+    "notation": "2MK",
+    "damage": [],
+    "starterScaling": 0.20
+  },
+  {
+    "notation": "2HK",
+    "damage": []
+  },
+  {
+    "notation": "j.LP",
+    "damage": []
+  },
+  {
+    "notation": "j.MP",
+    "damage": []
+  },
+  {
+    "notation": "j.HP",
+    "damage": []
+  },
+  {
+    "notation": "j.LK",
+    "damage": []
+  },
+  {
+    "notation": "j.MK",
+    "damage": []
+  },
+  {
+    "notation": "j.HK",
+    "damage": []
+  }
+]

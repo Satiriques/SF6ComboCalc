@@ -153,7 +153,8 @@ public class ComboParser
         var isDrEnhanced = str.Contains("DRC") || (str.Contains("DR") && index != 0);
         var cleanString = str.Replace("DRC", string.Empty)
             .Replace("dl.", string.Empty)
-            .Replace("DR", string.Empty);
+            .Replace("DR", string.Empty)    
+            .Replace("dash",string.Empty);
 
         if (numberOfHitRegex.IsMatch(cleanString))
         {

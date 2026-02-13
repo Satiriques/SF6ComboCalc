@@ -223,9 +223,8 @@
   },
   {
     "comboNotation": "5HP > DRC 5HP > 236KK, 4HK(1) > 236HP",
-    "expectedDamage": 2244,
-    "expectedScaling": [1,0.85,0.68,0.55,0.46],
-    "note" : "untested"
+    "expectedDamage": 2888,
+    "expectedScaling": [1,0.85,0.68,0.55,0.46]
   },
   {
     "comboNotation": "6HP, 2MP > 236KK, 4HK(1) > 236LK",
@@ -316,7 +315,7 @@
     "note" : "untested"
   },
   {
-    "comboNotation": "(PC) 5HP > 214HP, 214LP, 623HP",
+    "comboNotation": "(PC) 5HP > 214HP, 214LP, 623LP",
     "expectedDamage": 3090,
     "note" : "untested"
   },
