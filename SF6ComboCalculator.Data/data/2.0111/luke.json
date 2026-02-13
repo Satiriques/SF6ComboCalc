@@ -1,81 +1,131 @@
 [
   {
     "notation": "5LP",
-    "damage": [],
+    "damage": [300],
     "starterScaling": 0.20
   },
   {
     "notation": "5MP",
-    "damage": []
+    "damage": [600]
   },
   {
     "notation": "5HP",
-    "damage": [],
-    "starterScaling": 0.20
+    "damage": [800]
   },
   {
     "notation": "5LK",
-    "damage": [],
+    "damage": [300],
     "starterScaling": 0.20
   },
   {
     "notation": "5MK",
-    "damage": [],
+    "damage": [700],
     "starterScaling": 0.20
   },
   {
     "notation": "5HK",
-    "damage": []
+    "damage": [900]
   },
   {
     "notation": "2LP",
-    "damage": [],
+    "damage": [300],
     "starterScaling": 0.20
   },
   {
     "notation": "2MP",
-    "damage": []
+    "damage": [600]
   },
   {
     "notation": "2HP",
-    "damage": []
+    "damage": [800]
   },
   {
     "notation": "2LK",
-    "damage": [],
+    "damage": [200],
     "starterScaling": 0.20
   },
   {
     "notation": "2MK",
-    "damage": [],
+    "damage": [500],
     "starterScaling": 0.20
   },
   {
     "notation": "2HK",
-    "damage": []
+    "damage": [900]
   },
   {
     "notation": "j.LP",
-    "damage": []
+    "damage": [300]
   },
   {
     "notation": "j.MP",
-    "damage": []
+    "damage": [700]
   },
   {
     "notation": "j.HP",
-    "damage": []
+    "damage": [800]
   },
   {
     "notation": "j.LK",
-    "damage": []
+    "damage": [300]
   },
   {
     "notation": "j.MK",
-    "damage": []
+    "damage": [500]
   },
   {
     "notation": "j.HK",
-    "damage": []
+    "damage": [800]
+  },
+  {
+    "notation": "6MP",
+    "damage": [600]
+  },
+  {
+    "notation": "4HP",
+    "damage": [800]
+  },
+  {
+    "notation": "4HK",
+    "damage": [1000]
+  },
+  {
+    "notation": "6HP",
+    "damage": [800]
+  },
+  {
+    "notation": "5LP~MP",
+    "damage": [400],
+    "isTargetCombo": true
+  },
+  {
+    "notation": "5LP~MP~HP",
+    "damage": [800],
+    "isTargetCombo": true
+  },
+  {
+    "notation": "5MP~MP",
+    "damage": [300],
+    "isTargetCombo": true
+  },
+  {
+    "notation": "5MP~MP~MP",
+    "damage": [300],
+    "isTargetCombo": true
+  },
+  {
+    "notation": "5MP~MP~MP~MP",
+    "damage": [500],
+    "isTargetCombo": true
+  },
+  {
+    "notation": "6HP~HP",
+    "damage": [600],
+    "isTargetCombo": true
+  },
+  {
+    "notation": "2MK~2HP",
+    "damage": [600],
+    "isTargetCombo": true
   }
 ]

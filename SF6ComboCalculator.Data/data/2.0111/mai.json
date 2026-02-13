@@ -1,81 +1,101 @@
 [
   {
     "notation": "5LP",
-    "damage": [],
+    "damage": [300],
     "starterScaling": 0.20
   },
   {
     "notation": "5MP",
-    "damage": []
+    "damage": [600]
   },
   {
     "notation": "5HP",
-    "damage": [],
+    "damage": [800],
     "starterScaling": 0.20
   },
   {
     "notation": "5LK",
-    "damage": [],
+    "damage": [300],
     "starterScaling": 0.20
   },
   {
     "notation": "5MK",
-    "damage": [],
+    "damage": [700],
     "starterScaling": 0.20
   },
   {
     "notation": "5HK",
-    "damage": []
+    "damage": [900]
   },
   {
     "notation": "2LP",
-    "damage": [],
+    "damage": [300],
     "starterScaling": 0.20
   },
   {
     "notation": "2MP",
-    "damage": []
+    "damage": [600]
   },
   {
     "notation": "2HP",
-    "damage": []
+    "damage": [400,400]
   },
   {
     "notation": "2LK",
-    "damage": [],
+    "damage": [200],
     "starterScaling": 0.20
   },
   {
     "notation": "2MK",
-    "damage": [],
+    "damage": [500],
     "starterScaling": 0.20
   },
   {
     "notation": "2HK",
-    "damage": []
+    "damage": [900]
   },
   {
     "notation": "j.LP",
-    "damage": []
+    "damage": [300]
   },
   {
     "notation": "j.MP",
-    "damage": []
+    "damage": [600]
   },
   {
     "notation": "j.HP",
-    "damage": []
+    "damage": [800]
   },
   {
     "notation": "j.LK",
-    "damage": []
+    "damage": [300]
   },
   {
     "notation": "j.MK",
-    "damage": []
+    "damage": [500]
   },
   {
     "notation": "j.HK",
-    "damage": []
+    "damage": [800]
+  },
+  {
+    "notation": "6MP",
+    "damage": [600]
+  },
+  {
+    "notation": "4HK",
+    "damage": [800]
+  },
+  {
+    "notation": "5LK~LK",
+    "damage": [400]
+  },
+  {
+    "notation": "5LK~LK~LK",
+    "damage": [500]
+  },
+  {
+    "notation": "4HK~HK",
+    "damage": [600,600]
   }
 ]

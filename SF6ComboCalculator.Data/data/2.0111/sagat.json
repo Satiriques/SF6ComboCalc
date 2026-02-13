@@ -1,81 +1,122 @@
 [
   {
     "notation": "5LP",
-    "damage": [],
+    "damage": [300],
     "starterScaling": 0.20
   },
   {
     "notation": "5MP",
-    "damage": []
+    "damage": [600]
   },
   {
     "notation": "5HP",
-    "damage": [],
+    "damage": [800],
     "starterScaling": 0.20
   },
   {
     "notation": "5LK",
-    "damage": [],
+    "damage": [400],
     "starterScaling": 0.20
   },
   {
     "notation": "5MK",
-    "damage": [],
+    "damage": [700],
     "starterScaling": 0.20
   },
   {
     "notation": "5HK",
-    "damage": []
+    "damage": [600,300],
+    "starterScaling" : 0.20
   },
   {
     "notation": "2LP",
-    "damage": [],
+    "damage": [300],
     "starterScaling": 0.20
   },
   {
     "notation": "2MP",
-    "damage": []
+    "damage": [600]
   },
   {
     "notation": "2HP",
-    "damage": []
+    "damage": [800]
   },
   {
     "notation": "2LK",
-    "damage": [],
+    "damage": [200],
     "starterScaling": 0.20
   },
   {
     "notation": "2MK",
-    "damage": [],
+    "damage": [600],
     "starterScaling": 0.20
   },
   {
     "notation": "2HK",
-    "damage": []
+    "damage": [900]
   },
   {
     "notation": "j.LP",
-    "damage": []
+    "damage": [300]
   },
   {
     "notation": "j.MP",
-    "damage": []
+    "damage": [350,350]
   },
   {
     "notation": "j.HP",
-    "damage": []
+    "damage": [800]
   },
   {
     "notation": "j.LK",
-    "damage": []
+    "damage": [300]
   },
   {
     "notation": "j.MK",
-    "damage": []
+    "damage": [700]
   },
   {
     "notation": "j.HK",
-    "damage": []
+    "damage": [800]
+  },
+  {
+  "notation": "6MP",
+  "damage": [700]
+  },
+  {
+    "notation": "4HP",
+    "damage": [200,600],
+    "starterScaling" : 0.10
+  },
+  {
+    "notation": "6LK",
+    "damage": [700],
+    "starterScaling" : 0.30
+  },
+  {
+    "notation": "6HK",
+    "damage": [900],
+    "starterScaling" : 0.10,
+    "comboScaling" : 0.05
+  },
+  {
+    "notation": "5MK~HK",
+    "damage": [800],
+    "isTargetCombo" : true
+  },
+  {
+    "notation": "5HP~HK",
+    "damage": [1200],
+    "isTargetCombo" : true
+  },
+  {
+    "notation": "2MP~HP",
+    "damage": [600],
+    "isTargetCombo" : true
+  },
+  {
+    "notation": "2MP~HK",
+    "damage": [1000],
+    "isTargetCombo" : true
   }
 ]

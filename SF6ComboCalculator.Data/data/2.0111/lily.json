@@ -1,81 +1,111 @@
 [
   {
     "notation": "5LP",
-    "damage": [],
+    "damage": [350],
     "starterScaling": 0.20
   },
   {
     "notation": "5MP",
-    "damage": []
+    "damage": [800]
   },
   {
     "notation": "5HP",
-    "damage": [],
-    "starterScaling": 0.20
+    "damage": [900]
   },
   {
     "notation": "5LK",
-    "damage": [],
+    "damage": [300],
     "starterScaling": 0.20
   },
   {
     "notation": "5MK",
-    "damage": [],
+    "damage": [600],
     "starterScaling": 0.20
   },
   {
     "notation": "5HK",
-    "damage": []
+    "damage": [1000]
   },
   {
     "notation": "2LP",
-    "damage": [],
+    "damage": [300],
     "starterScaling": 0.20
   },
   {
     "notation": "2MP",
-    "damage": []
+    "damage": [700]
   },
   {
     "notation": "2HP",
-    "damage": []
+    "damage": [500,500]
   },
   {
     "notation": "2LK",
-    "damage": [],
+    "damage": [200],
     "starterScaling": 0.20
   },
   {
     "notation": "2MK",
-    "damage": [],
+    "damage": [500],
     "starterScaling": 0.20
   },
   {
     "notation": "2HK",
-    "damage": []
+    "damage": [450,450]
   },
   {
     "notation": "j.LP",
-    "damage": []
+    "damage": [300]
   },
   {
     "notation": "j.MP",
-    "damage": []
+    "damage": [700]
   },
   {
     "notation": "j.HP",
-    "damage": []
+    "damage": [800]
   },
   {
     "notation": "j.LK",
-    "damage": []
+    "damage": [300]
   },
   {
     "notation": "j.MK",
-    "damage": []
+    "damage": [500]
   },
   {
     "notation": "j.HK",
-    "damage": []
+    "damage": [800]
+  },
+  {
+    "notation": "6HP",
+    "damage": [900]
+  },
+  {
+    "notation": "4HP",
+    "damage": [1000]
+  },
+  {
+    "notation": "3HP",
+    "damage": [900]
+  },
+  {
+    "notation": "j.2HP",
+    "damage": [800]
+  },
+  {
+    "notation": "6HP~HP",
+    "damage": [500],
+    "isTargetCombo": true
+  },
+  {
+    "notation": "6HP~HP~HP",
+    "damage": [800],
+    "isTargetCombo": true
+  },
+  {
+    "notation": "j.MP~MP",
+    "damage": [700],
+    "isTargetCombo": true
   }
 ]
