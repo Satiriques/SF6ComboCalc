@@ -6,5 +6,25 @@
   {
     "comboNotation": "4HP > 236PP~K, 5HP > 236HP {1}",
     "expectedDamage": 2980
+  },
+  {
+    "comboNotation": "4HP > 236PP~K, 5HP > 236HP {2}",
+    "expectedDamage": 3070
+  },
+  {
+    "comboNotation": "4HP > 236PP~K, 5HP > 236HP {3}",
+    "expectedDamage": 3160
+  },
+  {
+    "comboNotation": "4HP > 236PP~K, 5HP > 236HP {4}",
+    "expectedDamage": 3250
+  },
+  {
+    "comboNotation": "4HP > 236PP~K, 5HP > 236HP {5}",
+    "expectedDamage": 3340
+  },
+  {
+    "comboNotation": "5MP > DRC 2MP, 5HP, 214MK",
+    "expectedDamage": 2362
   }
 ]

@@ -96,8 +96,9 @@
     "damage": [1050]
   },
   {
-    "notation": "5MP~HK~HK",
-    "damage": [1200]
+    "notation": "5MP~HK~HK*",
+    "damage": [1200],
+    "note": "just frame"
   },
   {
     "notation": "5MP~MK",

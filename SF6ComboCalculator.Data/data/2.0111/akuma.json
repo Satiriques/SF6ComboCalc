@@ -101,8 +101,9 @@
   },
   {
     "notation" : "5MP~MP",
-    "damage" : [600],
-    "isTargetCombo" : true
+    "damage" : [700],
+    "isTargetCombo" : true,
+    "numberOfExtraScalingHits" : 1
   },
   {
     "notation" : "5MK~HK",
@@ -241,5 +242,16 @@
     "notation" : "214PP~6P",
     "damage" : [300,400],
     "isTargetCombo" : true
+  },
+  {
+    "notation" : "236236K",
+    "aliases" : ["SA3"],
+    "damage" : [4000],
+    "minimumScaling" : 0.5
+  },
+  {
+    "notation": "236KK~j.214K",
+    "damage" :[200,200,200,200,500],
+    "numberOfExtraScalingHits" : 1
   }
 ]

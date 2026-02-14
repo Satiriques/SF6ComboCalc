@@ -20,5 +20,5 @@ public class Attack : BaseAttack
 
     
     public int? AirborneDamage { get; set; }
-    public int Damage { get; set; }
+    public virtual int Damage { get; set; }
 }

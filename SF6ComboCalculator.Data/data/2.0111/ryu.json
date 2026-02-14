@@ -240,5 +240,17 @@
   {
     "notation": "214PP (c)",
     "damage": [800]
+  },
+  {
+    "notation": "236236P",
+    "damage": [2000],
+    "aliases" : ["SA1"],
+    "minimumScaling": 0.3
+  },
+  {
+    "notation": "236236K",
+    "damage": [4000],
+    "aliases" : ["SA3"],
+    "minimumScaling": 0.5
   }
 ]

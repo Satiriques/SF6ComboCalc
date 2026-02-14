@@ -222,7 +222,7 @@
     "note" : "untested"
   },
   {
-    "comboNotation": "5HP > DRC 5HP > 236KK, 4HK(1) > 236HP",
+    "comboNotation": "5HP > DRC 5HP > 236KK, 4HK(1) > 623HP",
     "expectedDamage": 2888,
     "expectedScaling": [1,0.85,0.68,0.55,0.46]
   },
@@ -268,21 +268,18 @@
   },
   {
     "comboNotation": "(PC) 236HK, 6HK~214KK, 236236P",
-    "expectedDamage": 4660,
-    "note" : "untested"
+    "expectedDamage": 4660
   },
   {
-    "comboNotation": "(PC) 236HK, 6HK > 236236K",
-    "expectedDamage": 5760,
-    "note" : "untested"
+    "comboNotation": "(PC) 236HK, 6HK~214KK, 236236K",
+    "expectedDamage": 5760
   },
   {
     "comboNotation": "(PC) 5HK, dash 2HP > 623HP",
-    "expectedDamage": 3000,
-    "note" : "untested"
+    "expectedDamage": 3000
   },
   {
-    "comboNotation": "(PC) 5HK, dash, 236KK, 623HP",
+    "comboNotation": "(PC) 5HK, dash, 2HP > 236KK, 623HP",
     "expectedDamage": 3430,
     "note" : "untested"
   },
@@ -303,11 +300,11 @@
   },
   {
     "comboNotation": "(PC) 5HP > 214HP, 214MK",
-    "expectedDamage": 2720
+    "expectedDamage": 2560
   },
   {
     "comboNotation": "(PC) 5HP > 214HP, 236MK",
-    "expectedDamage": 2520
+    "expectedDamage": 2720
   },
   {
     "comboNotation": "(PC) 5HP > 214HP, DR 5HP > 214LP, 2HK",
@@ -356,8 +353,7 @@
   },
   {
     "comboNotation": "(PC) 4HP > 214HP, 236MK",
-    "expectedDamage": 2720,
-    "note" : "untested"
+    "expectedDamage": 2720
   },
   {
     "comboNotation": "(PC) 4HP > 214HP, DR 5HP > 214LP, 2HK",

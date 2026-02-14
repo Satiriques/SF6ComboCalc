@@ -126,6 +126,22 @@
     "damage" : [200,1300]
   },
   {
+    "notation" : "236HP {2}",
+    "damage" : [200,1450]
+  },
+  {
+    "notation" : "236HP {3}",
+    "damage" : [200,1600]
+  },
+  {
+    "notation" : "236HP {4}",
+    "damage" : [200,1750]
+  },
+  {
+    "notation" : "236HP {5}",
+    "damage" : [200,1900]
+  },
+  {
     "notation" : "236PP~K",
     "damage" : [800],
     "starterScaling" : 0.10,

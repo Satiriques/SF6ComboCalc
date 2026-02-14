@@ -1,4 +1,5 @@
 using System.Text.RegularExpressions;
+using SF6ComboCalculator.Combo;
 using SF6ComboCalculator.Data;
 using SF6ComboCalculator.Interfaces;
 using SF6ComboCalculator.Serialization;
@@ -36,6 +37,24 @@ public class ComboParser
             var str = splittedString[index];
             var (cleanString, isDrEnhanced, numberOfHits, isPunishCounter, isCounterHit) =
                 CleanupAttackString(str, numberOfHitRegex, index);
+            
+            if(cleanString == string.Empty)
+            {
+                continue;
+            }
+
+            if (cleanString.Contains("DI"))
+            {
+                unwrapedCombo.Add(new DriveImpact()
+                {
+                    IsBlocked = cleanString.Contains("(block)"),
+                    Aliases = null,
+                    Notation = cleanString,
+                    StarterScaling = 0.2m,
+                    IsPunishCounter = isPunishCounter,
+                });
+                continue;
+            }
 
             var attack = adapter.Adapt(FindAttack(cleanString));
             attack.NumberOfHits = numberOfHits;
@@ -65,6 +84,14 @@ public class ComboParser
         var hasStarterScaling = false;
         var drScaling = 1m;
         var airborne = false;
+        var crushScaling = 1m;
+        
+        
+        if (combo[0] is DriveImpact driveImpact && driveImpact.IsBlocked)
+        {
+            crushScaling = .8M;
+            combo.Remove(combo[0]);
+        }
 
         for (var index = 0; index < combo.Count; index++)
         {
@@ -75,13 +102,14 @@ public class ComboParser
                 drScaling = .85M; // 15% penalty
             }
 
+
             baseScaling -= attack.ImmediateScaling;
 
-            var damage = attack.CalculateDamage(baseScaling * drScaling, airborne);
+            var damage = attack.CalculateDamage(baseScaling * drScaling * crushScaling, airborne);
             totalDamage += damage;
 
             damagePerAttack.Add(damage);
-            var scaling = attack.CalculateScaling(baseScaling * drScaling);
+            var scaling = attack.CalculateScaling(baseScaling * drScaling * crushScaling);
             scalingPerAttack.Add(scaling);
             var numberOfScalingHits = 1 + attack.NumberOfExtraScalingHits;
             
