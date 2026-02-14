@@ -1,0 +1,10 @@
+[
+  {
+    "comboNotation": "4HP > 236PP~K, 5HP > 236HK (1), 236LP {1}",
+    "expectedDamage": 2995
+  },
+  {
+    "comboNotation": "4HP > 236PP~K, 5HP > 236HP {1}",
+    "expectedDamage": 2980
+  }
+]

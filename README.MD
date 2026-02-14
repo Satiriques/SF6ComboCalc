@@ -47,3 +47,12 @@ Every test case added MUST be validated ingame.
 
 Most of the info can be found at https://wiki.supercombo.gg/w/Street_Fighter_6/Game_Data
 
+## Debugging
+
+Most of the time, adding a breakpoint after `comboParser.Parse(notation)` and using the `result` variable will give you 
+the stuff you need to understand why something is not adding up.
+
+When validating with ingame data, here's what I suggest:
+1. compare the scaling array, sometimes the data is missing a scaling 
+2. check the damage of each move
+3. check for multihit move, depending on your combo some hit might whiff or not happen when cancelled

@@ -75,6 +75,8 @@ public class ComboParser
                 drScaling = .85M; // 15% penalty
             }
 
+            baseScaling -= attack.ImmediateScaling;
+
             var damage = attack.CalculateDamage(baseScaling * drScaling, airborne);
             totalDamage += damage;
 

@@ -108,5 +108,31 @@
     "notation": "2HP~HP",
     "damage": [500],
     "isTargetCombo": true
+  },
+  {
+    "notation" : "63214LP",
+    "damage" : [2000]
+  },
+  {
+    "notation" : "236LP {1}",
+    "damage" : [50,1300]
+  },
+  {
+    "notation" : "236MP {1}",
+    "damage" : [100,1300]
+  },
+  {
+    "notation" : "236HP {1}",
+    "damage" : [200,1300]
+  },
+  {
+    "notation" : "236PP~K",
+    "damage" : [800],
+    "starterScaling" : 0.10,
+    "immediateScaling" : 0.10
+  },
+  {
+    "notation" : "236HK",
+    "damage" : [400,400]
   }
 ]
