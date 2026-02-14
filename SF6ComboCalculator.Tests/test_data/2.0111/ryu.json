@@ -353,8 +353,7 @@
   },
   {
     "comboNotation": "(PC) 4HP > 214HP, 236MK",
-    "expectedDamage": 2720,
-    "note" : "untested"
+    "expectedDamage": 2720
   },
   {
     "comboNotation": "(PC) 4HP > 214HP, DR 5HP > 214LP, 2HK",
