@@ -134,5 +134,17 @@
   {
     "notation" : "236HK",
     "damage" : [400,400]
+  },
+  {
+    "notation" : "236LK",
+    "damage" : [300,700]
+  },
+  {
+    "notation" : "236MK",
+    "damage" : [400,800]
+  },
+  {
+    "notation" : "236HK",
+    "damage" : [1000]
   }
 ]
