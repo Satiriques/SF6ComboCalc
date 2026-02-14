@@ -1,21 +1,15 @@
 [
   {
-    "comboNotation": "5HK, 5MK > 214LK, 2HK",
-    "expectedDamage": 0
-  },
-  {
     "comboNotation": "5HP > DRC 6HP, 2HP > 214HK",
-    "expectedDamage": 0
+    "expectedDamage": 3036
   },
   {
     "comboNotation": "2LP > 2LP > 2LP > 623HP",
-    "expectedDamage": 1650,
-    "note" : "untested"
+    "expectedDamage": 1650
   },
   {
     "comboNotation": "5LP > 2LK > 2LP > 214LK, 2HK",
-    "expectedDamage": 1390,
-    "note" : "untested"
+    "expectedDamage": 1390
   },
   {
     "comboNotation": "2MP, 2MP > 214MP~6P",
@@ -24,13 +18,11 @@
   },
   {
     "comboNotation": "2MP, 5MP~MP > 214MP~6P",
-    "expectedDamage": 2540,
-    "note" : "untested"
+    "expectedDamage": 2540
   },
   {
     "comboNotation": "5HK, 5MK > 214LK, 2HK",
-    "expectedDamage": 2520,
-    "note" : "untested"
+    "expectedDamage": 2520
   },
   {
     "comboNotation": "5HP > 214HP~6P",
@@ -43,32 +35,32 @@
     "note" : "untested"
   },
   {
-    "comboNotation": "DI (block) 2HP > 236LP, 214HK",
+    "comboNotation": "DI (block), 2HP > 236LP, 214HK",
     "expectedDamage": 2304,
     "note" : "untested, need to add stuff for DI (block)"
   },
   {
-    "comboNotation": "(PC) DI 2HP > 214HK",
+    "comboNotation": "(PC) DI, 2HP > 214HK",
     "expectedDamage": 2800,
     "note" : "untested"
   },
   {
-    "comboNotation": "(PC) DI 5HK, 5MK > 214HK",
+    "comboNotation": "(PC) DI, 5HK, 5MK > 214HK",
     "expectedDamage": 2820,
     "note" : "untested"
   },
   {
-    "comboNotation": "(PC) DI 4HK > 236LP, DR 5HP > 214HP~6P",
+    "comboNotation": "(PC) DI, 4HK > 236LP, DR 5HP > 214HP~6P",
     "expectedDamage": 3080,
     "note" : "untested"
   },
   {
-    "comboNotation": "(PC) DI 4HK > 236KK~214K, 214HK",
+    "comboNotation": "(PC) DI, 4HK > 236KK~j.214K, 214HK",
     "expectedDamage": 3310,
     "note" : "untested"
   },
   {
-    "comboNotation": "(PC) DI 4HK > 236KK~214K, 623LP > SA3",
+    "comboNotation": "(PC) DI, 4HK > 236KK~j.214K, 623LP > SA3",
     "expectedDamage": 5060,
     "note" : "untested"
   },
