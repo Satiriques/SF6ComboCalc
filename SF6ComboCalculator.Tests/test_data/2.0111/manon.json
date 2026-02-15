@@ -26,5 +26,13 @@
   {
     "comboNotation": "5MP > DRC 2MP, 5HP, 214MK",
     "expectedDamage": 2362
+  },
+  {
+    "comboNotation": "2LP > 2LP > 236HK",
+    "expectedDamage": 1210
+  },
+  {
+    "comboNotation": "j.HK, 4HP > 236MP {1}",
+    "expectedDamage": 2720
   }
 ]

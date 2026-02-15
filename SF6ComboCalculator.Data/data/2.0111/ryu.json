@@ -176,7 +176,8 @@
   },
   {
     "notation": "214KK",
-    "damage": [200,200,200,200,200]
+    "damage": [200,200,200,200,200],
+    "starerScaling": 0.20
   },
   {
     "notation": "j.214K",
