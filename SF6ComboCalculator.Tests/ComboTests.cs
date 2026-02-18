@@ -1,3 +1,4 @@
+using SF6ComboCalculator.Combo;
 using SF6ComboCalculator.Tests.Core;
 using Xunit.Sdk;
 
@@ -9,17 +10,28 @@ public class ComboTests : TestCore
     {
         GenerateDataForTests();
 
-        return _data.Select(data => (object[])[data.Item1, data.Item2, data.Item3, data.Item4, data.Item5]);
+        return _data.Select(data => (object[])
+            [
+                data.Version, 
+                data.CharacterName, 
+                data.Notation, 
+                data.DamageExpected, 
+                data.ExpectedScaling,
+                new CharacterStates()
+                {
+                    Level = data.Level
+                }
+            ]);
     }
 
     [Theory]
     [MemberData(nameof(ComboTestData))]
     public void Combo_does_correct_amount_of_total_damage(string version, string characterName, string notation,
-        int damageExpected, decimal[] expectedScaling)
+        int damageExpected, decimal[] expectedScaling, CharacterStates characterStates)
     {
         var comboParser = ComboParser.From(characterName, version);
 
-        var result = comboParser.Parse(notation);
+        var result = comboParser.Parse(notation, characterStates);
 
         Assert.Equal(damageExpected, result.TotalDamage);
         if (expectedScaling is not null)
