@@ -22,12 +22,13 @@ public class ComboParser
     }
 
 
-    public ComboParserResult Parse(string comboNotation)
+    public ComboParserResult Parse(string comboNotation, CharacterStates? states = null)
     {
         List<IAttack> unwrapedCombo = [];
         List<int> damagePerAttack = [];
         List<decimal> scalingPerAttack = [];
         var numberOfHitRegex = new Regex(@"\((\d+)\)");
+        states ??= new CharacterStates();
         
         var splittedString = comboNotation.Split('>', ',');
         var adapter = new AttackModelAdapter();
@@ -87,7 +88,7 @@ public class ComboParser
         var crushScaling = 1m;
         
         
-        if (combo[0] is DriveImpact driveImpact && driveImpact.IsBlocked)
+        if (combo[0] is DriveImpact { IsBlocked: true })
         {
             crushScaling = .8M;
             combo.Remove(combo[0]);
@@ -105,7 +106,7 @@ public class ComboParser
 
             baseScaling -= attack.ImmediateScaling;
 
-            var damage = attack.CalculateDamage(baseScaling * drScaling * crushScaling, airborne);
+            var damage = attack.CalculateDamage(baseScaling * drScaling * crushScaling, airborne, states);
             totalDamage += damage;
 
             damagePerAttack.Add(damage);

@@ -1,27 +1,32 @@
 [
   {
-    "comboNotation": "4HP > 236PP~K, 5HP > 236HK (1), 236LP {1}",
-    "expectedDamage": 2995
+    "comboNotation": "4HP > 236PP~K, 5HP > 236HK (1), 236LP",
+    "expectedDamage": 2995,
+    "level" : 1
   },
   {
-    "comboNotation": "4HP > 236PP~K, 5HP > 236HP {1}",
+    "comboNotation": "4HP > 236PP~K, 5HP > 236HP",
     "expectedDamage": 2980
   },
   {
-    "comboNotation": "4HP > 236PP~K, 5HP > 236HP {2}",
-    "expectedDamage": 3070
+    "comboNotation": "4HP > 236PP~K, 5HP > 236HP",
+    "expectedDamage": 3070,
+    "level" : 2
   },
   {
-    "comboNotation": "4HP > 236PP~K, 5HP > 236HP {3}",
-    "expectedDamage": 3160
+    "comboNotation": "4HP > 236PP~K, 5HP > 236HP",
+    "expectedDamage": 3160,
+    "level" : 3
   },
   {
-    "comboNotation": "4HP > 236PP~K, 5HP > 236HP {4}",
-    "expectedDamage": 3250
+    "comboNotation": "4HP > 236PP~K, 5HP > 236HP",
+    "expectedDamage": 3250,
+    "level" : 4
   },
   {
-    "comboNotation": "4HP > 236PP~K, 5HP > 236HP {5}",
-    "expectedDamage": 3340
+    "comboNotation": "4HP > 236PP~K, 5HP > 236HP",
+    "expectedDamage": 3340,
+    "level" : 5
   },
   {
     "comboNotation": "5MP > DRC 2MP, 5HP, 214MK",
@@ -32,7 +37,8 @@
     "expectedDamage": 1210
   },
   {
-    "comboNotation": "j.HK, 4HP > 236MP {1}",
-    "expectedDamage": 2720
+    "comboNotation": "j.HK, 4HP > 236MP",
+    "expectedDamage": 2720,
+    "level" : 1
   }
 ]

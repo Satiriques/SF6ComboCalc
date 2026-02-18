@@ -1,25 +1,26 @@
-using SF6ComboCalculator.Combo;
-using SF6ComboCalculator.Interfaces;
+namespace SF6ComboCalculator.Combo;
 
-namespace SF6ComboCalculator;
-
-public class MultiHitAttack : BaseAttack
+public class LevelEnhancedAttack : BaseAttack
 {
     public override int CalculateDamage(decimal baseScaling, bool airborne, CharacterStates characterStates)
     {
-        var damage = airborne ? AirborneDamage ?? Damage : Damage;
+        if (characterStates.Level == 0)
+        {
+            throw new ArgumentException("level 0 is not possible");
+        }
+        
+        var damage = Damage[characterStates.Level - 1];
         var chScaling = IsCounterHit || IsPunishCounter ? 1.2m : 1m;
         
         return NumberOfHits is null ? 
             damage.Select(x => (int)(x * chScaling * CalculateScaling(baseScaling))).Sum() : 
             damage.Take(NumberOfHits.Value).Select(x => (int)(x * chScaling * CalculateScaling(baseScaling))).Sum();
     }
-    
+
     public override decimal CalculateScaling(decimal baseScaling)
     {
         return Truncate(Math.Max(baseScaling, MinimumScaling),2);
     }
     
-    public required int[] Damage { get; init; }
-    public int[]? AirborneDamage { get; init; }
+    public required int[][] Damage { get; set; }
 }

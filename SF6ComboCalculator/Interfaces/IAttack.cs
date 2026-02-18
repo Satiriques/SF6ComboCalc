@@ -1,3 +1,5 @@
+using SF6ComboCalculator.Combo;
+
 namespace SF6ComboCalculator.Interfaces;
 
 public interface IAttack
@@ -19,7 +21,7 @@ public interface IAttack
     bool IsPunishCounter { get; set; }
     bool IsCounterHit { get; set; }
 
-    int CalculateDamage(decimal baseScaling, bool airborne);
+    int CalculateDamage(decimal baseScaling, bool airborne, CharacterStates characterStates);
     /// <summary>
     /// Gets the actual scaling used for the calculate damage.
     /// This can be useful because even if the base scaling is 10, some attacks, like

@@ -5,8 +5,9 @@ namespace SF6ComboCalculator.Serialization;
 public class AttackModel
 {
     public string Notation { get; set; }
-    public int[] Damage { get; set; }
+    public int[]? Damage { get; set; }
     public int[]? AirborneDamage { get; set; }
+    public int[][]? DamagePerLevel { get; set; }
     
     // Alternative notation for the same attack
     public string[] Aliases { get; set; } = Array.Empty<string>();

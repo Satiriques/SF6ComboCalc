@@ -1,3 +1,4 @@
+using SF6ComboCalculator.Combo;
 using SF6ComboCalculator.Interfaces;
 using SF6ComboCalculator.Serialization;
 
@@ -9,8 +10,25 @@ public class AttackModelAdapter
     public IAttack Adapt(AttackModel model)
     {
         IAttack attack;
-        
-        if (model.Damage.Length > 1)
+
+        if (model.Damage == null && model.DamagePerLevel != null)
+        {
+            attack = new LevelEnhancedAttack()
+            {
+                Notation = model.Notation,
+                Damage = model.DamagePerLevel,
+                Aliases = model.Aliases,
+                StarterScaling = model.StarterScaling,
+                ComboScaling = model.ComboScaling,
+                ImmediateScaling = model.ImmediateScaling,
+                MinimumScaling = model.MinimumScaling,
+                IsTargetCombo = model.IsTargetCombo,
+                NumberOfExtraScalingHits = model.NumberOfExtraScalingHits,
+                // AirborneDamage = model.AirborneDamage,
+                MakesAirborne = model.MakesAirborne,
+            };
+        }
+        else if (model.Damage is { Length: > 1 })
         {
             attack = new MultiHitAttack()
             {

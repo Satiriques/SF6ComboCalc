@@ -5,7 +5,7 @@ namespace SF6ComboCalculator;
 
 public class Attack : BaseAttack
 {
-    public override int CalculateDamage(decimal baseScaling, bool airborne)
+    public override int CalculateDamage(decimal baseScaling, bool airborne, CharacterStates characterStates)
     {
         var damage = airborne ? AirborneDamage ?? Damage : Damage;
         var chScaling = IsCounterHit || IsPunishCounter ? 1.2m : 1m;

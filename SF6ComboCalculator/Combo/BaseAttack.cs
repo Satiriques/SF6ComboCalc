@@ -21,7 +21,7 @@ public abstract class BaseAttack : IAttack
     public bool IsPunishCounter { get; set; }
     public bool IsCounterHit { get; set; }
 
-    public abstract int CalculateDamage(decimal baseScaling, bool airborne);
+    public abstract int CalculateDamage(decimal baseScaling, bool airborne, CharacterStates characterStates);
     public abstract decimal CalculateScaling(decimal baseScaling);
     
     protected decimal Truncate(decimal number, byte numberOfDecimals)

@@ -47,6 +47,34 @@ Every test case added MUST be validated ingame.
 
 Most of the info can be found at https://wiki.supercombo.gg/w/Street_Fighter_6/Game_Data
 
+### Parsing
+
+The standard format for a character move is:
+```js
+  {
+    "notation" : "5HP",
+    "damage" : [800]
+  },
+```
+If a move has multiple hits:
+```js
+{
+    "notation" : "236HK",
+    "damage" : [400,400]
+}
+```
+
+If a move has different damage depending on a level (manon medals, jamie drinks). 
+```js
+{
+    "notation" : "236HP", 
+    "damagePerLevel" : [[200,1300], [200,1450], [200,1600], [200,1750], [200,1900]]
+}
+```
+
+
+### Formula
+
 ## Debugging
 
 Most of the time, adding a breakpoint after `comboParser.Parse(notation)` and using the `result` variable will give you 
