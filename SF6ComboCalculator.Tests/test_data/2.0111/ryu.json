@@ -36,18 +36,21 @@
     "note" : "untested"
   },
   {
-    "comboNotation": "5LP (CH), 2MP, 214HP (c), 214MK",
+    "comboNotation": "5LP (CH), 2MP, 214HP, 214MK",
     "expectedDamage": 2000,
+    "stocks" : 1,
     "note" : "untested"
   },
   {
-    "comboNotation": "5LP (CH), 2MP, 214HP (c), 236MK",
+    "comboNotation": "5LP (CH), 2MP, 214HP, 236MK",
     "expectedDamage": 2120,
+    "stocks" : 1,
     "note" : "untested"
   },
   {
-    "comboNotation": "5LP (CH), 2MP, 214HP (c), 623HP",
+    "comboNotation": "5LP (CH), 2MP, 214HP, 623HP",
     "expectedDamage": 2240,
+    "stocks" : 1,
     "note" : "untested"
   },
   {
@@ -76,7 +79,8 @@
     "note" : "untested"
   },
   {
-    "comboNotation": "(PC) 5LP, 214PP (c), dash 2HP > 623HP",
+    "comboNotation": "(PC) 5LP, 214PP, dash 2HP > 623HP",
+    "stocks" : 1,
     "expectedDamage": 2400,
     "note" : "untested"
   },
@@ -368,6 +372,12 @@
   {
     "comboNotation": "(PC) 4HP > 214HP, DR 5HP > 214LP, 623HP",
     "expectedDamage": 3431,
+    "note" : "untested"
+  },
+  {
+    "comboNotation": "5HP > 214PP > 214214P",
+    "expectedDamage": 0,
+    "stocks" : 1,
     "note" : "untested"
   }
 ]

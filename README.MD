@@ -47,7 +47,7 @@ Every test case added MUST be validated ingame.
 
 Most of the info can be found at https://wiki.supercombo.gg/w/Street_Fighter_6/Game_Data
 
-### Parsing
+### Data Parsing
 
 The standard format for a character move is:
 ```js

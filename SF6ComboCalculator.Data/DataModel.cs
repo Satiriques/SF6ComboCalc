@@ -10,4 +10,5 @@ public class DataModel
     public int ExpectedDamage { get; set; }
     public decimal[] ExpectedScaling { get; set; }
     public int Level { get; set; } = 1;
+    public int Stocks { get; set; }
 }

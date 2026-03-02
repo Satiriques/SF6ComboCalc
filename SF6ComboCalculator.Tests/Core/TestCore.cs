@@ -18,7 +18,8 @@ public class TestCore
         string Notation, 
         int DamageExpected, 
         decimal[] ExpectedScaling, 
-        int Level)> _data = [];
+        int Level,
+        int Stocks)> _data = [];
     
     
     protected static void GenerateDataForTests()
@@ -42,7 +43,13 @@ public class TestCore
 
             foreach (var data in deserialized)
             {
-                _data.Add((version, characterName, data.ComboNotation, data.ExpectedDamage, data.ExpectedScaling, data.Level));
+                _data.Add((version, 
+                    characterName, 
+                    data.ComboNotation, 
+                    data.ExpectedDamage, 
+                    data.ExpectedScaling, 
+                    data.Level,
+                    data.Stocks));
             }
         }
     }

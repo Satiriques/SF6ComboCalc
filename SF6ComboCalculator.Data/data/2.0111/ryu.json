@@ -125,20 +125,19 @@
     "damage": [700]
   },
   {
+    "notation": "236HP{s}",
+    "damage": [500,500],
+    "starterScaling": 0.20,
+    "numberOfExtraScalingHits" : 1
+  },
+  {
     "notation": "236PP",
     "damage": [500,500],
     "starterScaling": 0.20,
     "numberOfExtraScalingHits" : 1
   },
   {
-    "notation": "236HP (c)",
-    "damage": [500,500],
-    "note" : "not sure yet how to represent denshin charge",
-    "starterScaling": 0.20,
-    "numberOfExtraScalingHits" : 1
-  },
-  {
-    "notation": "236PP (c)",
+    "notation": "236PP{s}",
     "damage": [400,400,400],
     "starterScaling": 0.20,
     "numberOfExtraScalingHits" : 1
@@ -235,11 +234,11 @@
     "numberOfExtraScalingHits" : 1
   },
   {
-    "notation": "214HP (c)",
+    "notation": "214HP{s}",
     "damage": [400,400]
   },
   {
-    "notation": "214PP (c)",
+    "notation": "214PP{s}",
     "damage": [800]
   },
   {
@@ -247,6 +246,12 @@
     "damage": [2000],
     "aliases" : ["SA1"],
     "minimumScaling": 0.3
+  },
+  {
+    "notation": "214214P",
+    "damage": [2800],
+    "aliases" : ["SA2"],
+    "minimumScaling": 0.4
   },
   {
     "notation": "236236K",
