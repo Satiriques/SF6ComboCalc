@@ -12,6 +12,18 @@ public class TestCore
 
         return fetcher.GetAllDataFiles();
     }
+
+    public static string[] GetVersions()
+    {
+        var fetcher = new Fetcher();
+        return fetcher.GetAllVersions();
+    }
+
+    public static string[] GetCharacters(string version)
+    {
+        var fetcher = new Fetcher();
+        return fetcher.GetAllCharacters(version);
+    }
     
     protected static readonly List<(string Version, 
         string CharacterName, 

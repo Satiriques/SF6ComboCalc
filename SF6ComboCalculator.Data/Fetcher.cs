@@ -35,5 +35,16 @@ public class Fetcher
     {
         return Directory.GetFiles("./data", "*.json", SearchOption.AllDirectories);
     }
-    
+
+    public string[] GetAllVersions()
+    {
+        var folders =Directory.GetDirectories("./data/");
+        return folders.Select(Path.GetFileName).ToArray();
+    }
+
+    public string[] GetAllCharacters(string version)
+    {
+        var files = Directory.GetFiles($"./data/{version}");
+        return files.Select(Path.GetFileNameWithoutExtension).ToArray();
+    }
 }

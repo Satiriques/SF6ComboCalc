@@ -9,7 +9,7 @@ public class DataValidationTests : TestCore
     {
         var dataFiles = GetAllDataFiles();
 
-        return  dataFiles.Select(x => new object[] { x });
+        return dataFiles.Select(x => new object[] { x });
     }
     
     [Theory]
