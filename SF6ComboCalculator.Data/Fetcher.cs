@@ -8,17 +8,18 @@ public class Fetcher
 {
     public AttackModel[] FetchAttacks(string character, string version)
     {
-        if (!Directory.Exists($"./data/{version}/"))
+        
+        if (!Directory.Exists($"{AppContext.BaseDirectory}/data/{version}/"))
         {
             throw new ArgumentException($"Version specified {version} not found in {Path.GetFullPath("./data/")}");
         }
 
-        if (!File.Exists($"./data/{version}/{character}.json"))
+        if (!File.Exists($"{AppContext.BaseDirectory}/data/{version}/{character}.json"))
         {
             throw new ArgumentException($"Character {character}.json not found  in {Path.GetFullPath($"./data/{version}")}");
         }
         
-        var path = $"./data/{version}/{character}.json";
+        var path = $"{AppContext.BaseDirectory}/data/{version}/{character}.json";
         
         var content = File.ReadAllText(path);
         var json = JsonConvert.DeserializeObject<AttackModel[]>(content);
