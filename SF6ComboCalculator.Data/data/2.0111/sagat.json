@@ -126,7 +126,8 @@
   },
   {
     "notation" : "214MK",
-    "damage" : [500]
+    "damage" : [500],
+    "starterScaling" : 0.2
   },
   {
     "notation" : "214HK",
@@ -225,7 +226,8 @@
   {
     "notation" : "623HP",
     "damage" : [1600],
-    "airborneDamage" : [1000]
+    "airborneDamage" : [1000],
+    "numberOfExtraScalingHits" : 1
   },
   {
     "notation" : "623[HP]",

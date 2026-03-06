@@ -29,14 +29,15 @@
   },
   {
     "comboNotation": "(CH) 2LP, 2MP > 623HP > SA3",
-    "expectedDamage": 3960
+    "expectedDamage": 3960,
+    "expectedScaling" : [1,0.8, 0.7, 0.5]
   },
   {
     "comboNotation": "(CH) 6LK, 5LP > 623MP",
     "expectedDamage": 1890
   },
   {
-    "comboNotation": "(CH) 2LP, 2MP > 214MK~6MK",
+    "comboNotation": "(CH) 2LP, 2MP > 214MK~6MK, 623LP",
     "expectedDamage": 2230
   },
   {
