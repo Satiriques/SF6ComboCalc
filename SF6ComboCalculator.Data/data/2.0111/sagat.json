@@ -86,7 +86,8 @@
   {
     "notation": "4HP",
     "damage": [200,600],
-    "starterScaling" : 0.10
+    "starterScaling" : 0.10,
+    "makesAirborne" : true
   },
   {
     "notation": "6LK",
@@ -118,5 +119,129 @@
     "notation": "2MP~HK",
     "damage": [1000],
     "isTargetCombo" : true
+  },
+  {
+    "notation" : "214LK",
+    "damage" : [500]
+  },
+  {
+    "notation" : "214MK",
+    "damage" : [500]
+  },
+  {
+    "notation" : "214HK",
+    "damage" : [300,200]
+  },
+  {
+    "notation" : "236LP",
+    "damage" : [600]
+  },
+  {
+    "notation" : "236MP",
+    "damage" : [700]
+  },
+  {
+    "notation" : "236HP",
+    "damage" : [700]
+  },
+  {
+    "notation" : "236LK",
+    "damage" : [800]
+  },
+  {
+    "notation" : "236MK",
+    "damage" : [1000]
+  },
+  {
+    "notation" : "236HK",
+    "damage" : [500,900],
+    "airborneDamage" : [1300]
+  },
+  {
+    "notation" : "236KK",
+    "damage" : [600,1000],
+    "airborneDamage" : [500,500],
+    "numberOfExtraScalingHits" : 1
+  },
+  {
+    "notation" : "214LK~6LK",
+    "damage" : [800],
+    "isTargetCombo": true
+  },
+  {
+    "notation" : "214MK~6LK",
+    "damage" : [800],
+    "isTargetCombo": true
+  },
+  {
+    "notation" : "214HK~6LK",
+    "damage" : [800],
+    "isTargetCombo": true
+  },
+  {
+    "notation" : "214LK~6MK",
+    "damage" : [1000],
+    "isTargetCombo": true,
+    "numberOfExtraScalingHits" : 1
+  },
+  {
+    "notation" : "214MK~6MK",
+    "damage" : [1000],
+    "isTargetCombo": true,
+    "numberOfExtraScalingHits" : 1
+  },
+  {
+    "notation" : "214HK~6MK",
+    "damage" : [1000],
+    "isTargetCombo": true,
+    "numberOfExtraScalingHits" : 1
+  },
+  {
+    "notation" : "214LK~6HK",
+    "damage" : [800],
+    "isTargetCombo": true
+  },
+  {
+    "notation" : "214MK~6HK",
+    "damage" : [800],
+    "isTargetCombo": true
+  },
+  {
+    "notation" : "214HK~6HK",
+    "damage" : [800],
+    "isTargetCombo": true
+  },
+  {
+    "notation" : "623LP",
+    "damage" : [1100],
+    "airborneDamage" : [800],
+    "starterScaling" : 0.3
+  },
+  {
+    "notation" : "623MP",
+    "damage" : [1400],
+    "airborneDamage" : [800]
+  },
+  {
+    "notation" : "623HP",
+    "damage" : [1600],
+    "airborneDamage" : [1000]
+  },
+  {
+    "notation" : "623[HP]",
+    "damage" : [1800,1000],
+    "airborneDamage" : [1700]
+  },
+  {
+    "notation" : "236236P",
+    "aliases" : ["SA1"],
+    "damage" : [2200],
+    "minimumScaling" : 0.3
+  },
+  {
+    "notation" : "236236K",
+    "aliases" : ["SA3"],
+    "damage" : [4000],
+    "minimumScaling" : 0.5
   }
 ]
