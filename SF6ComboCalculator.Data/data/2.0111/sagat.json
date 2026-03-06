@@ -20,8 +20,7 @@
   },
   {
     "notation": "5MK",
-    "damage": [700],
-    "starterScaling": 0.20
+    "damage": [700]
   },
   {
     "notation": "5HK",
