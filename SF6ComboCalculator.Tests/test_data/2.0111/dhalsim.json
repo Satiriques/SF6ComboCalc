@@ -14,5 +14,17 @@
   {
     "comboNotation": "2LP > 2LP > DRC 5LP, 4MP > 63214HK",
     "expectedDamage" : 1578
+  },
+  {
+    "comboNotation": "(PC) 5HK, 1HP > DRC 1HP, 4MK > 63214HK > 236236MP",
+    "expectedDamage": 3978
+  },
+  {
+    "comboNotation": "(PC) 5HK, 1HP > DRC 5HK > 236MK > 4MK > 63214HK > 236236MP",
+    "expectedDamage": 4092
+  },
+  {
+    "comboNotation": "DR (PC) 4HK, 4MP > 63214PP, 5HK > 236236HP",
+    "expectedDamage": 4324
   }
 ]

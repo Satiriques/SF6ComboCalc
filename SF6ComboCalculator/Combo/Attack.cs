@@ -1,8 +1,10 @@
+using System.Diagnostics;
 using SF6ComboCalculator.Combo;
 using SF6ComboCalculator.Interfaces;
 
 namespace SF6ComboCalculator;
 
+[DebuggerDisplay("{Notation} {Damage}")]
 public class Attack : BaseAttack
 {
     public override int CalculateDamage(decimal baseScaling, bool airborne, CharacterStates characterStates)

@@ -147,7 +147,18 @@
   },
   {
     "notation": "236LK",
-    "damage": [600]
+    "damage": [600],
+    "name" : "Yoga Arch"
+  },
+  {
+    "notation": "236MK",
+    "damage": [600],
+    "name" : "Yoga Arch"
+  },
+  {
+    "notation": "236HK",
+    "damage": [600],
+    "name" : "Yoga Arch"
   },
   {
     "notation": "236KK",
@@ -155,16 +166,19 @@
   },
   {
     "notation": "63214LP",
-    "damage": [800]
+    "damage": [800],
+    "name" : "Yoga Flame"
   },
   {
     "notation": "63214MP",
-    "damage": [450,450]
+    "damage": [450,450],
+    "name" : "Yoga Flame"
   },
   {
     "notation": "63214HP",
     "damage": [400,400,400],
-    "makesAirborne": true
+    "makesAirborne": true,
+    "name" : "Yoga Flame"
   },
   {
     "notation": "63214PP",
@@ -172,16 +186,19 @@
   },
   {
     "notation": "63214LK",
-    "damage": [1000]
+    "damage": [1000],
+    "name" : "Yoga Blast"
   },
   {
     "notation": "63214MK",
-    "damage": [1200]
+    "damage": [1200],
+    "name" : "Yoga Blast"
   },
   {
     "notation": "63214HK",
     "damage": [1200],
-    "numberOfExtraScalingHits" : 1
+    "numberOfExtraScalingHits" : 1,
+    "name" : "Yoga Blast"
   },
   {
     "notation": "63214KK",
@@ -197,23 +214,36 @@
   },
   {
     "notation" : "236LP",
-    "damage" : [600]
+    "damage" : [600],
+    "name" : "Yoga Fire"
   },
   {
     "notation" : "236MP",
-    "damage" : [600]
+    "damage" : [600],
+    "name" : "Yoga Fire"
   },
   {
     "notation" : "236HP",
-    "damage" : [600]
+    "damage" : [600],
+    "name" : "Yoga Fire"
   },
   {
-    "notation": "SA1",
-    "damage": [2800]
+    "notation": "236236LP",
+    "damage": [1920],
+    "minimumScaling" : 0.3,
+    "name" : "Yoga Inferno"
   },
   {
-    "notation": "SA2",
-    "damage": [2100]
+    "notation": "236236MP",
+    "damage": [2100],
+    "minimumScaling" : 0.3,
+    "name" : "Yoga Inferno"
+  },
+  {
+    "notation": "236236HP",
+    "damage": [2040],
+    "minimumScaling" : 0.3,
+    "name" : "Yoga Inferno"
   },
   {
     "notation": "SA3",
