@@ -34,10 +34,10 @@ public class ComboTests : TestCore
 
         var result = comboParser.Parse(notation, characterStates);
 
-        Assert.Equal(damageExpected, result.TotalDamage);
         if (expectedScaling is not null)
         {
             Assert.True(Enumerable.SequenceEqual(expectedScaling, result.ScalingPerAttack));
         }
+        Assert.Equal(damageExpected, result.TotalDamage);
     }
 }

@@ -94,7 +94,7 @@
   },
   {
     "notation": "4HK",
-    "damage": [400,400]
+    "damage": [1000]
   },
   {
     "notation": "1HP",
@@ -235,13 +235,13 @@
   },
   {
     "notation": "236236MP",
-    "damage": [2100],
+    "damage": [175,175,175,175,175,175,175,175,175,175,175,175],
     "minimumScaling" : 0.3,
     "name" : "Yoga Inferno"
   },
   {
     "notation": "236236HP",
-    "damage": [2040],
+    "damage": [170,170,170,170,170,170,170,170,170,170,170,170],
     "minimumScaling" : 0.3,
     "name" : "Yoga Inferno"
   },

@@ -1,7 +1,11 @@
 [
   {
     "comboNotation": "5LP > 5LP > 236MK",
-    "expectedDamage": 1290
+    "expectedDamage": 1170
+  },
+  {
+  "comboNotation": "2LK > 2LP > 5LP > 236MK",
+  "expectedDamage": 1190
   },
   {
   "comboNotation": "2MP > 236HK",
@@ -18,10 +22,6 @@
   {
     "comboNotation": "(PC) DI, 5HP > 236HK",
     "expectedDamage": 2300
-  },
-  {
-    "comboNotation": "2LK > 2LP > 5LP > 236MK",
-    "expectedDamage": 1340
   },
   {
     "comboNotation": "2HP, 2MP > 236HK",
