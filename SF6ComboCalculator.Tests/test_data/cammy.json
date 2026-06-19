@@ -35,17 +35,17 @@
     "validated": true
   },
   {
-    "comboNotation": "5LP~5LP > 236MK",
+    "comboNotation": "5LP > 5LP > 236MK",
     "expectedDamage": 1290,
     "validated": false
   },
   {
-    "comboNotation": "Punish Counter Drive Impact, 5HP > 236HK",
+    "comboNotation": "(PC) DI, 5HP > 236HK",
     "expectedDamage": 2300,
     "validated": false
   },
   {
-    "comboNotation": "2LK~2LP~5LP > 236MK",
+    "comboNotation": "2LK > 2LP > 5LP > 236MK",
     "expectedDamage": 1340,
     "validated": false
   },
@@ -110,27 +110,27 @@
     "validated": false
   },
   {
-    "comboNotation": "Drive Impact (blocked), 5HP > 236LK, 623HK",
+    "comboNotation": "DI (blocked), 5HP > 236LK, 623HK",
     "expectedDamage": 2048,
     "validated": false
   },
   {
-    "comboNotation": "Drive Impact (ground hit), 5HP > 236MK, \n623HK",
+    "comboNotation": "DI (ground hit), 5HP > 236MK, \n623HK",
     "expectedDamage": 2790,
     "validated": false
   },
   {
-    "comboNotation": "(PC) Drive Impact, 2HP, 2MP > 236HK",
+    "comboNotation": "(PC) DI, 2HP, 2MP > 236HK",
     "expectedDamage": 2540,
     "validated": false
   },
   {
-    "comboNotation": "(PC) Drive Impact, 4HK, 236MK, 623HK",
+    "comboNotation": "(PC) DI, 4HK, 236MK, 623HK",
     "expectedDamage": 2950,
     "validated": false
   },
   {
-    "comboNotation": "(PC) Drive Impact, dl.5HP > 236LK, 236MK",
+    "comboNotation": "(PC) DI, dl.5HP > 236LK, 236MK",
     "expectedDamage": 2700,
     "validated": false
   }

@@ -1,16 +1,16 @@
 [
   {
-    "comboNotation": "5LP~2LP~2LP>236MK",
+    "comboNotation": "5LP > 2LP > 2LP > 236MK",
     "expectedDamage": 1510,
     "validated": false
   },
   {
-    "comboNotation": "5LP~2LP~2LP>[2]8HK",
+    "comboNotation": "5LP > 2LP > 2LP > [2]8HK",
     "expectedDamage": 1720,
     "validated": false
   },
   {
-    "comboNotation": "j.2K,2LK~2LP>236MK",
+    "comboNotation": "j.2K, 2LK > 2LP > 236MK",
     "expectedDamage": 1440,
     "validated": false
   },
@@ -30,22 +30,22 @@
     "validated": false
   },
   {
-    "comboNotation": "Drive Impact, dl.5HP>214HP",
+    "comboNotation": "DI, dl.5HP > 214HP",
     "expectedDamage": 2860,
     "validated": false
   },
   {
-    "comboNotation": "2LP~2LP~2LP>236236K",
+    "comboNotation": "2LP > 2LP > 2LP > 236236K",
     "expectedDamage": 2070,
     "validated": false
   },
   {
-    "comboNotation": "5MP~2LP>[2]8HK",
+    "comboNotation": "5MP, 2LP > [2]8HK",
     "expectedDamage": 1940,
     "validated": false
   },
   {
-    "comboNotation": "5MK~2MP>[2]8HK",
+    "comboNotation": "5MK, 2MP > [2]8HK",
     "expectedDamage": 2240,
     "validated": false
   },
@@ -55,17 +55,17 @@
     "validated": false
   },
   {
-    "comboNotation": "5MP~5HP~5HK>236236K",
+    "comboNotation": "5MP~HP~HK>236236K",
     "expectedDamage": 2840,
     "validated": false
   },
   {
-    "comboNotation": "6MK~2LP>214KK~HK,236HK",
+    "comboNotation": "6MK, 2LP > 214KK~HK, 236HK",
     "expectedDamage": 2940,
     "validated": false
   },
   {
-    "comboNotation": "6MK~2MP>214LP",
+    "comboNotation": "6MK, 2MP > 214LP",
     "expectedDamage": 2620,
     "validated": false
   },

@@ -461,6 +461,7 @@
       4000
     ],
     "minimumScaling": 0.5,
+    "aliases" : ["SA3"],
     "immediateScaling": 0.1
   }
 ]

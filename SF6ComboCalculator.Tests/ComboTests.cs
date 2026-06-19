@@ -30,8 +30,6 @@ public class ComboTests : TestCore
     public void Combo_does_correct_amount_of_total_damage(string characterName, string notation,
         int damageExpected, decimal[] expectedScaling, bool validated, CharacterStates characterStates)
     {
-        if (!validated)
-            throw new SkipException("not validated");
 
         var comboParser = ComboParser.From(characterName);
 
@@ -41,6 +39,7 @@ public class ComboTests : TestCore
         {
             Assert.True(Enumerable.SequenceEqual(expectedScaling, result.ScalingPerAttack));
         }
+
         Assert.Equal(damageExpected, result.TotalDamage);
     }
 }

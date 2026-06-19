@@ -15,22 +15,22 @@
     "validated": false
   },
   {
-    "comboNotation": "Drive Rush>6MP,2LP,2LP>214P",
+    "comboNotation": "DR 6MP,2LP,2LP>214P",
     "expectedDamage": 1700,
     "validated": false
   },
   {
-    "comboNotation": "Drive Rush>6MP,5LK>214P",
+    "comboNotation": "DR 6MP,5LK>214P",
     "expectedDamage": 1540,
     "validated": false
   },
   {
-    "comboNotation": "Drive Rush>6MP,4HK,4LP>[4]6MP",
+    "comboNotation": "DR 6MP,4HK,4LP>[4]6MP",
     "expectedDamage": 2480,
     "validated": false
   },
   {
-    "comboNotation": "Drive Rush>2MK,4MK,1MK>[4]6MP",
+    "comboNotation": "DR 2MK,4MK,1MK>[4]6MP",
     "expectedDamage": 2050,
     "validated": false
   }
