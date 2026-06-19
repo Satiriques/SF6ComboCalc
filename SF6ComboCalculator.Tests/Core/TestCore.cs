@@ -19,28 +19,36 @@ public class TestCore
         return fetcher.GetAllCharacters();
     }
 
-    protected static readonly List<(string CharacterName,
+    private static readonly Lazy<List<(string CharacterName,
         string Notation,
         int DamageExpected,
         decimal[] ExpectedScaling,
         int Level,
         int Stocks,
-        bool Validated)> _data = [];
+        bool Validated)>> _lazyData = new(LoadAllTestData);
 
+    protected static List<(string CharacterName,
+        string Notation,
+        int DamageExpected,
+        decimal[] ExpectedScaling,
+        int Level,
+        int Stocks,
+        bool Validated)> _data => _lazyData.Value;
 
-    protected static void GenerateDataForTests()
+    private static List<(string CharacterName,
+        string Notation,
+        int DamageExpected,
+        decimal[] ExpectedScaling,
+        int Level,
+        int Stocks,
+        bool Validated)> LoadAllTestData()
     {
-        if (_data.Count != 0)
-        {
-            return;
-        }
-
+        var result = new List<(string, string, int, decimal[], int, int, bool)>();
         var allTestFiles = Directory.GetFiles("./test_data/", "*.json", SearchOption.TopDirectoryOnly);
 
         foreach (var testFile in allTestFiles)
         {
             var splittedPath = testFile.Split(Path.DirectorySeparatorChar, Path.AltDirectorySeparatorChar);
-
             var characterName = splittedPath[2].Replace(".json", string.Empty);
 
             var fileContent = File.ReadAllText(testFile);
@@ -48,7 +56,7 @@ public class TestCore
 
             foreach (var data in deserialized)
             {
-                _data.Add((characterName,
+                result.Add((characterName,
                     data.ComboNotation,
                     data.ExpectedDamage,
                     data.ExpectedScaling,
@@ -57,5 +65,12 @@ public class TestCore
                     data.Validated));
             }
         }
+
+        return result;
+    }
+
+    protected static void GenerateDataForTests()
+    {
+        _ = _data; // trigger Lazy initialization
     }
 }
