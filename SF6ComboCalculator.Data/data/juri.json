@@ -210,6 +210,14 @@
     "numberOfExtraScalingHits": 1
   },
   {
+    "notation": "236MK!",
+    "damage": [
+      600
+    ],
+    "starterScaling": 0.2,
+    "numberOfExtraScalingHits": 1
+  },
+  {
     "notation": "236LKHK",
     "damage": [
       800
@@ -221,6 +229,13 @@
     "notation": "236HK",
     "damage": [
       1000
+    ]
+  },
+  {
+    "notation": "236HK!",
+    "damage": [
+      700,
+      500
     ]
   },
   {
@@ -250,6 +265,15 @@
   },
   {
     "notation": "623HP",
+    "damage": [
+      300,
+      300,
+      300,
+      300
+    ]
+  },
+  {
+    "notation": "623HK",
     "damage": [
       300,
       300,
@@ -297,6 +321,7 @@
   },
   {
     "notation": "236236K",
+    "aliases": [ "SA1" ],
     "damage": [
       1800
     ],
@@ -318,6 +343,7 @@
   },
   {
     "notation": "214214K",
+    "aliases": [ "SA3" ],
     "damage": [
       4000
     ],
