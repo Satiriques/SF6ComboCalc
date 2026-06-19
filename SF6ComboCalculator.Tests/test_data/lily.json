@@ -1,0 +1,492 @@
+[
+  {
+    "comboNotation": "L > L > LP > 623MP",
+    "expectedDamage": 1390,
+    "validated": false
+  },
+  {
+    "comboNotation": "L > 2LP > 2LP > 623HP",
+    "expectedDamage": 1470,
+    "validated": false
+  },
+  {
+    "comboNotation": "L > LP > 623PP > (j.PPP)",
+    "expectedDamage": 15202220,
+    "validated": false
+  },
+  {
+    "comboNotation": "L > L > LP > 236KK > (SA2)",
+    "expectedDamage": 13852425,
+    "validated": false
+  },
+  {
+    "comboNotation": "L > L > LP > SA1",
+    "expectedDamage": 2105,
+    "validated": false
+  },
+  {
+    "comboNotation": "L > LP > SA2",
+    "expectedDamage": 2360,
+    "validated": false
+  },
+  {
+    "comboNotation": "L > LP > W.623HP",
+    "expectedDamage": 1520,
+    "validated": false
+  },
+  {
+    "comboNotation": "L > L > LP > W.SA2",
+    "expectedDamage": 2525,
+    "validated": false
+  },
+  {
+    "comboNotation": "L > L > LP > W.236KK, SA1",
+    "expectedDamage": 2385,
+    "validated": false
+  },
+  {
+    "comboNotation": "L > L > LP > W.236MK > W.623MP",
+    "expectedDamage": 1925,
+    "validated": false
+  },
+  {
+    "comboNotation": "L > 2LP > 2LP > W.623MP(1), W.236KK, W.623PP > j.PPP, SA2",
+    "expectedDamage": 3490,
+    "validated": false
+  },
+  {
+    "comboNotation": "MK > 236LK",
+    "expectedDamage": 1400,
+    "validated": false
+  },
+  {
+    "comboNotation": "236KK > SA2",
+    "expectedDamage": 3080,
+    "validated": false
+  },
+  {
+    "comboNotation": "Late-Hit 236KK, 2HK",
+    "expectedDamage": 1720,
+    "validated": false
+  },
+  {
+    "comboNotation": "W.236KK, SA1",
+    "expectedDamage": 2960,
+    "validated": false
+  },
+  {
+    "comboNotation": "W.236KK, W.623HP",
+    "expectedDamage": 2320,
+    "validated": false
+  },
+  {
+    "comboNotation": "Late-Hit W.236KK(2), 2HK",
+    "expectedDamage": 1820,
+    "validated": false
+  },
+  {
+    "comboNotation": "Late-Hit W.236KK(2), 623PP > j.PPP, (SA2)",
+    "expectedDamage": 0,
+    "validated": false
+  },
+  {
+    "comboNotation": "Late-Hit W.236KK(2), W.236MK, W.623MP",
+    "expectedDamage": 2700,
+    "validated": false
+  },
+  {
+    "comboNotation": "Late-Hit W.236KK(2), W.236MK, W.623PP > (j.PPP)",
+    "expectedDamage": 29403500,
+    "validated": false
+  },
+  {
+    "comboNotation": "Late-Hit W.236KK(2), W.236~dl.KK, W.623PP > j.PPP, (SA2)",
+    "expectedDamage": 35804620,
+    "validated": false
+  },
+  {
+    "comboNotation": "Late-Hit W.236KK(1), DR 5LP > 214HP",
+    "expectedDamage": 1887,
+    "validated": false
+  },
+  {
+    "comboNotation": "Late-Hit W.236KK(1), DR 5LP > 214PP, W.623MP",
+    "expectedDamage": 2450,
+    "validated": false
+  },
+  {
+    "comboNotation": "AA CH 2HP > 214PP > (W.SA2)",
+    "expectedDamage": 18003830,
+    "validated": false
+  },
+  {
+    "comboNotation": "AA CH 2HP > 236MK+HK, SA1",
+    "expectedDamage": 3140,
+    "validated": false
+  },
+  {
+    "comboNotation": "AA 623PP > j.PPP",
+    "expectedDamage": 2520,
+    "validated": false
+  },
+  {
+    "comboNotation": "AA 7j.MP~MP",
+    "expectedDamage": 1400,
+    "validated": false
+  },
+  {
+    "comboNotation": "AA j.MP > SA2",
+    "expectedDamage": 3300,
+    "validated": false
+  },
+  {
+    "comboNotation": "AA 9j.MP~dl.MP, 623PP > (j.PPP)",
+    "expectedDamage": 25203360,
+    "validated": false
+  },
+  {
+    "comboNotation": "AA CH 2HP > (dl.)W.236MK > SA1",
+    "expectedDamage": 3240,
+    "validated": false
+  },
+  {
+    "comboNotation": "AA CH 2HP > W.236MK(2) > 623PP > (j.PPP)",
+    "expectedDamage": 25803280,
+    "validated": false
+  },
+  {
+    "comboNotation": "AA j.MP > W.SA2",
+    "expectedDamage": 3600,
+    "validated": false
+  },
+  {
+    "comboNotation": "AA 9j.MP~dl.MP, W.236KK, SA1",
+    "expectedDamage": 3680,
+    "validated": false
+  },
+  {
+    "comboNotation": "DR LP, 5HP > (Heavy Starter Combo)",
+    "expectedDamage": 19102610,
+    "validated": false
+  },
+  {
+    "comboNotation": "DR LP, 2HP > (Heavy Starter Combo)",
+    "expectedDamage": 19902685,
+    "validated": false
+  },
+  {
+    "comboNotation": "DR HP > 236HK",
+    "expectedDamage": 20002530,
+    "validated": false
+  },
+  {
+    "comboNotation": "DR 2HP, 5LK > (Light Starter Combo)",
+    "expectedDamage": 22602762,
+    "validated": false
+  },
+  {
+    "comboNotation": "DR 4HP, 6~5LK > (5LP) > DRC LP, 2HP > (Heavy Starter Combo)",
+    "expectedDamage": 27403274,
+    "validated": false
+  },
+  {
+    "comboNotation": "DR 4HP, 6~5MK > DRC (LP, )2HP > (Heavy Starter Combo)",
+    "expectedDamage": 30693505,
+    "validated": false
+  },
+  {
+    "comboNotation": "DR 3HP, LP > (Light Starter Combo)",
+    "expectedDamage": 2370,
+    "validated": false
+  },
+  {
+    "comboNotation": "(CH) DR LP, 2HP > (Heavy Starter Combo)",
+    "expectedDamage": 1450,
+    "validated": false
+  },
+  {
+    "comboNotation": "Meaty DR 4HP, 2HP > (Heavy Starter Combo)",
+    "expectedDamage": 2960,
+    "validated": false
+  },
+  {
+    "comboNotation": "Meaty DR 3HP, 5MK > (Heavy Starter Combo)",
+    "expectedDamage": 2460,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC) 5HP > 236HK",
+    "expectedDamage": 2080,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC 5HP, 6HP) >> (Special)",
+    "expectedDamage": 0,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC) 5HP, 6HP~HP~HP",
+    "expectedDamage": 2940,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC 5HP, 6HP) >> DRC 4HP > (Special)",
+    "expectedDamage": 33683908,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC 5HP, 6HP) >> DRC 4HP > 236KK, SA1",
+    "expectedDamage": 4166,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC) 5HP > 214[PP], 5HP > (DRC 4HP) > DRC dl.4HP > W.236MK, SA1",
+    "expectedDamage": 42254556,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC 5HP, DR dl.2HP) >> 236KK, SA1",
+    "expectedDamage": 3721,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC 5HP, 6HP) >> (DRC 4HP) > 214PP > W.SA2",
+    "expectedDamage": 46804586,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC 5HP, DR dl.2HP) >> DRC 4HP > 236MK",
+    "expectedDamage": 3141,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC 5HP, 6HP) >> 236MK+HK, 623LP",
+    "expectedDamage": 3320,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC 5HP, 6HP) >> 236MK+HK, 623PP > (j.PPP)",
+    "expectedDamage": 36204180,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC 5HP, 4HP) >> 236MK+HK, 623MP",
+    "expectedDamage": 3480,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC 5HP, DR 2HP) >> 236MK+HK, 623PP > j.PPP, SA2",
+    "expectedDamage": 4840,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC 5HP, 6HP) >> 214PP, W.623HP",
+    "expectedDamage": 3780,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC 5HP, 6HP) >> 214PP, W.623PP > j.PPP",
+    "expectedDamage": 4460,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC 5HP, 4HP) >> 214PP, W.623PP > j.PPP, SA2",
+    "expectedDamage": 5600,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC) 5HP > 214LP, 5LK, 6HP > (Windclad Combo)",
+    "expectedDamage": 3080,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC) 5HP > 214[PP], 5HP > DRC 4HP, W.623HP",
+    "expectedDamage": 3486,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC) 5HP > 214[PP], 5HP > 214PP, W.623PP > W.j.PPP > (SA2)",
+    "expectedDamage": 45405580,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC) 5HP > 214[PP], 5MK > 214PP, W.623PP > W.j.PPP, SA1",
+    "expectedDamage": 4900,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC) 5HP > W.236HK",
+    "expectedDamage": 2180,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC 5HP, 6HP) >> (DRC 4HP) > (dl.DRC 4HP) > W.236MK, SA1",
+    "expectedDamage": 0,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC 5HP, 4HP) >> W.236KK, W.236KK, SA1",
+    "expectedDamage": 4580,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC 5HP, 6HP) >> DRC dl.2HP > W.236KK, W.236KK, SA1",
+    "expectedDamage": 4490,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC 5HP, 6HP) >> (DRC 4HP) > W.236HK, W.623HP",
+    "expectedDamage": 37803956,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC 5HP, 4HP) >> W.236HK, W.623PP > W.j.PPP, SA1",
+    "expectedDamage": 5300,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC 5HP, 6HP) >> W.236KK, W.623PP > W.j.PPP, SA1",
+    "expectedDamage": 5200,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC DR 4HP, 2HP) >> 623HP",
+    "expectedDamage": 3160,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC DR 4HP, 2HP) >> 623PP > (j.PPP)",
+    "expectedDamage": 33204160,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC DR 4HP, 2HP) >> DRC 4HP, MK > (DRC 2HP) > 623HP",
+    "expectedDamage": 38464248,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC DR 4HP, 2HP) >> DRC 4HP, MK > 623PP > j.PPP",
+    "expectedDamage": 4424,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC DR 4HP, 2HP) >> 214PP, W.623MP",
+    "expectedDamage": 3880,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC DR 4HP, 2HP) >> 214PP, W.623PP > (j.PPP)",
+    "expectedDamage": 41204680,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC DR 4HP, 2HP) >> SA1",
+    "expectedDamage": 3960,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC DR 4HP, 2HP) >> (DRC 4HP) > DRC 4HP, 2MP > SA1",
+    "expectedDamage": 44044743,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC DR 4HP, 2HP) >> SA2",
+    "expectedDamage": 4280,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC DR 4HP, 2HP) >> (DRC 4HP, MK) > 214PP > W.SA2",
+    "expectedDamage": 49005006,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC DR 4HP, 2HP) >> DRC 4HP > DRC 4HP, 2MP > SA2",
+    "expectedDamage": 4919,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC) j.HK, 2HP > DRC 4HP, 6~5LK > (5LP) > DRC LP, 2HP > 214PP > W.SA2",
+    "expectedDamage": 4983,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC) j.HK, 2HP > DRC 4HP, 6~5MK > DRC (LP, )2HP > 214PP > W.SA2",
+    "expectedDamage": 5160,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC DR 4HP, 2HP) >> DRC 4HP, MK > (DRC 2HP) > W.623HP",
+    "expectedDamage": 39484332,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC DR 4HP, 2HP) >> W.236HK, W.623HP",
+    "expectedDamage": 4000,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC DR 4HP, 2HP) >> 214PP, W.623PP > (W.j.PPP)",
+    "expectedDamage": 41204760,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC) 5HP, 4HP > (DRC 4HP) > (DRC dl.4HP) > W.236MK, SA1",
+    "expectedDamage": 0,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC DR 4HP, 2HP) >> W.236HK, SA1",
+    "expectedDamage": 4480,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC DR 4HP, 2HP) >> (DRC 4HP) > DRC 4HP, MK > W.236HK, SA1",
+    "expectedDamage": 45914940,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC DR 4HP, 2HP) >> (DRC 4HP, MK) > W.236HK, W.623PP > W.j.PPP, SA1",
+    "expectedDamage": 54205322,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC DR 4HP, 2HP) >> W.SA2",
+    "expectedDamage": 4520,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC) 5HP, 4HP > W.236MK, W.SA2",
+    "expectedDamage": 4700,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC DR 4HP, 2HP) >> DRC 4HP > DRC 4HP, 2MP > W.SA2",
+    "expectedDamage": 5045,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC) 5HP, 4HP > DRC 4HP > DRC dl.4HP > W.236MK, W.SA2",
+    "expectedDamage": 5071,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC) j.HK, 2HP > DRC 4HP, 6~5LK > (5LP) > DRC LP, 2HP > DRC 4HP, 2MP > W.SA2",
+    "expectedDamage": 5090,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC) j.HK, 2HP > DRC 4HP, 6~5MK > DRC (LP, )2HP > DRC 4HP, 2MP > W.SA2",
+    "expectedDamage": 5322,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC DR 4HP, 2HP) >> W.236HK, W.623PP > W.j.PPP, SA2",
+    "expectedDamage": 5800,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC DR 4HP, 2HP) >> W.236KK, W.623PP > j.PPP, SA2",
+    "expectedDamage": 5720,
+    "validated": false
+  }
+]

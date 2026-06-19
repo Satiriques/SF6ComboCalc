@@ -1,0 +1,87 @@
+[
+  {
+    "comboNotation": "2LP > 2LP > [2]8HK",
+    "expectedDamage": 1520,
+    "validated": false
+  },
+  {
+    "comboNotation": "2LP > 2LP > SA1, [2]8KK",
+    "expectedDamage": 2160,
+    "validated": false
+  },
+  {
+    "comboNotation": "2LP > 2LP, 5LK > DR > 5LP, 5MP, 2MP > [2]8HK",
+    "expectedDamage": 1709,
+    "validated": false
+  },
+  {
+    "comboNotation": "2LP > 2LP, 5LK > DR > 5LP, 5MP~4HP > SA1 > [2]8KK",
+    "expectedDamage": 2120,
+    "validated": false
+  },
+  {
+    "comboNotation": "2LP > 2LP, 5LK > DR > 5LP, 5HP > DR > 5HK, 5MP~4HP > [2]8HK",
+    "expectedDamage": 1917,
+    "validated": false
+  },
+  {
+    "comboNotation": "2LP > 2LP, 5LK > DR > 5LP, 5HP > DR > 5HK, 5MP~4HP > SA1",
+    "expectedDamage": 2345,
+    "validated": false
+  },
+  {
+    "comboNotation": "2LP > 2LP, 5LK > DR > 5LP, 5HP > DR > 5HK, 2MP > [2]8HK > SA3",
+    "expectedDamage": 3941,
+    "validated": false
+  },
+  {
+    "comboNotation": "5MP, 2MP, [2]8HK",
+    "expectedDamage": 2320,
+    "validated": false
+  },
+  {
+    "comboNotation": "5MP, 2MP > DR > 2MP, 5MP, 2MP > [2]8HK",
+    "expectedDamage": 2856,
+    "validated": false
+  },
+  {
+    "comboNotation": "5MP, 2MP > DR > 2MP, 5MP~4HP > SA1 > [2]8KK",
+    "expectedDamage": 3466,
+    "validated": false
+  },
+  {
+    "comboNotation": "5MP, 2MP > DR > 2MP, 5HP > DR > 5HK, 5MP~4HP > [2]8HK",
+    "expectedDamage": 3353,
+    "validated": false
+  },
+  {
+    "comboNotation": "5MP, 2MP > DR > 2MP, 5HP > DR > 5HK, 5MP~4HP > SA1",
+    "expectedDamage": 3543,
+    "validated": false
+  },
+  {
+    "comboNotation": "5MP, 2MP > DR > 2MP, 5HP > DR > 5HK, 2MP > [2]8HK > SA3",
+    "expectedDamage": 5275,
+    "validated": false
+  },
+  {
+    "comboNotation": "(CH) 6MK, 5LK > DR > 5LP, 5MP, 2MP > [2]8HK",
+    "expectedDamage": 2592,
+    "validated": false
+  },
+  {
+    "comboNotation": "(CH) 6MK, 5LK > DR > 5LP, 5MP~4HP > SA1 > [2]8KK",
+    "expectedDamage": 3202,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC) 2MK > [2]8KK",
+    "expectedDamage": 1880,
+    "validated": false
+  },
+  {
+    "comboNotation": "jHK, 5HP > DR > 5HK, 2MP > [4]6LP, 2MP > [4]6LP, 4HP > [4]6LP > [2]8HK",
+    "expectedDamage": 3774,
+    "validated": false
+  }
+]

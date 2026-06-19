@@ -1,0 +1,12 @@
+[
+  {
+    "comboNotation": "5LP > 5LP > 5LP > 623HK",
+    "expectedDamage": 1650,
+    "validated": false
+  },
+  {
+    "comboNotation": "2HP > 2PP > HP, 623HK",
+    "expectedDamage": 3160,
+    "validated": false
+  }
+]

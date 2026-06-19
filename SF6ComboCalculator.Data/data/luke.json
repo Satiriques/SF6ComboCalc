@@ -1,131 +1,455 @@
 [
   {
     "notation": "5LP",
-    "damage": [300],
-    "starterScaling": 0.20
+    "damage": [
+      300
+    ],
+    "starterScaling": 0.2
   },
   {
     "notation": "5MP",
-    "damage": [600]
+    "damage": [
+      600
+    ]
   },
   {
     "notation": "5HP",
-    "damage": [800]
+    "damage": [
+      800
+    ]
   },
   {
     "notation": "5LK",
-    "damage": [300],
-    "starterScaling": 0.20
+    "damage": [
+      300
+    ],
+    "starterScaling": 0.2
   },
   {
     "notation": "5MK",
-    "damage": [700],
-    "starterScaling": 0.20
+    "damage": [
+      700
+    ]
   },
   {
     "notation": "5HK",
-    "damage": [900]
+    "damage": [
+      900
+    ]
   },
   {
     "notation": "2LP",
-    "damage": [300],
-    "starterScaling": 0.20
+    "damage": [
+      300
+    ],
+    "starterScaling": 0.2
   },
   {
     "notation": "2MP",
-    "damage": [600]
+    "damage": [
+      600
+    ],
+    "starterScaling": 0.15
   },
   {
     "notation": "2HP",
-    "damage": [800]
+    "damage": [
+      800
+    ]
   },
   {
     "notation": "2LK",
-    "damage": [200],
-    "starterScaling": 0.20
+    "damage": [
+      200
+    ],
+    "starterScaling": 0.2
   },
   {
     "notation": "2MK",
-    "damage": [500],
-    "starterScaling": 0.20
+    "damage": [
+      500
+    ],
+    "starterScaling": 0.2
   },
   {
     "notation": "2HK",
-    "damage": [900]
+    "damage": [
+      900
+    ]
   },
   {
     "notation": "j.LP",
-    "damage": [300]
+    "damage": [
+      300
+    ]
   },
   {
     "notation": "j.MP",
-    "damage": [700]
+    "damage": [
+      700
+    ]
   },
   {
     "notation": "j.HP",
-    "damage": [800]
+    "damage": [
+      800
+    ]
   },
   {
     "notation": "j.LK",
-    "damage": [300]
+    "damage": [
+      300
+    ]
   },
   {
     "notation": "j.MK",
-    "damage": [500]
+    "damage": [
+      500
+    ]
   },
   {
     "notation": "j.HK",
-    "damage": [800]
+    "damage": [
+      800
+    ]
   },
   {
     "notation": "6MP",
-    "damage": [600]
+    "damage": [
+      600
+    ]
   },
   {
     "notation": "4HP",
-    "damage": [800]
+    "damage": [
+      800
+    ]
   },
   {
     "notation": "4HK",
-    "damage": [1000]
+    "damage": [
+      1000
+    ]
   },
   {
     "notation": "6HP",
-    "damage": [800]
+    "damage": [
+      800
+    ]
   },
   {
     "notation": "5LP~MP",
-    "damage": [400],
+    "damage": [
+      320
+    ],
+    "isTargetCombo": true
+  },
+  {
+    "notation": "5LP~MP*",
+    "damage": [
+      400
+    ],
     "isTargetCombo": true
   },
   {
     "notation": "5LP~MP~HP",
-    "damage": [800],
+    "damage": [
+      560
+    ],
+    "isTargetCombo": true
+  },
+  {
+    "notation": "5LP~MP~HP*",
+    "damage": [
+      800
+    ],
     "isTargetCombo": true
   },
   {
     "notation": "5MP~MP",
-    "damage": [300],
+    "damage": [
+      300
+    ],
     "isTargetCombo": true
   },
   {
     "notation": "5MP~MP~MP",
-    "damage": [300],
+    "damage": [
+      240
+    ],
+    "isTargetCombo": true
+  },
+  {
+    "notation": "5MP~MP~MP*",
+    "damage": [
+      300
+    ],
     "isTargetCombo": true
   },
   {
     "notation": "5MP~MP~MP~MP",
-    "damage": [500],
+    "damage": [
+      350
+    ],
+    "isTargetCombo": true
+  },
+  {
+    "notation": "5MP~MP~MP~MP*",
+    "damage": [
+      500
+    ],
     "isTargetCombo": true
   },
   {
     "notation": "6HP~HP",
-    "damage": [600],
-    "isTargetCombo": true
+    "damage": [
+      600
+    ],
+    "isTargetCombo": true,
+    "numberOfExtraScalingHits": 1
   },
   {
     "notation": "2MK~2HP",
-    "damage": [600],
+    "damage": [
+      480
+    ],
     "isTargetCombo": true
+  },
+  {
+    "notation": "2MK~2HP*",
+    "damage": [
+      600
+    ],
+    "isTargetCombo": true
+  },
+  {
+    "notation": "236LP",
+    "damage": [
+      600
+    ]
+  },
+  {
+    "notation": "236MP",
+    "damage": [
+      600
+    ]
+  },
+  {
+    "notation": "236HP",
+    "damage": [
+      600
+    ]
+  },
+  {
+    "notation": "236PP",
+    "damage": [
+      400,
+      400
+    ],
+    "starterScaling": 0.2,
+    "numberOfExtraScalingHits": 1
+  },
+  {
+    "notation": "236PP~PP",
+    "damage": [
+      800
+    ]
+  },
+  {
+    "notation": "236PP~PP*",
+    "damage": [
+      1000
+    ]
+  },
+  {
+    "notation": "623LP",
+    "damage": [
+      800
+    ]
+  },
+  {
+    "notation": "623LP*",
+    "damage": [
+      900
+    ]
+  },
+  {
+    "notation": "623MP",
+    "damage": [
+      800
+    ]
+  },
+  {
+    "notation": "623MP*",
+    "damage": [
+      1000
+    ]
+  },
+  {
+    "notation": "623HP",
+    "damage": [
+      800
+    ]
+  },
+  {
+    "notation": "623HP*",
+    "damage": [
+      1200
+    ]
+  },
+  {
+    "notation": "623PP",
+    "damage": [
+      600
+    ]
+  },
+  {
+    "notation": "623PP~PP",
+    "damage": [
+      600
+    ]
+  },
+  {
+    "notation": "214LP",
+    "damage": [
+      700
+    ]
+  },
+  {
+    "notation": "214[LP]",
+    "damage": [
+      600,
+      200
+    ]
+  },
+  {
+    "notation": "pf.214[LP]",
+    "damage": [
+      700,
+      200
+    ]
+  },
+  {
+    "notation": "214MP",
+    "damage": [
+      900
+    ]
+  },
+  {
+    "notation": "214[MP]",
+    "damage": [
+      800,
+      200
+    ]
+  },
+  {
+    "notation": "pf.214[MP]",
+    "damage": [
+      850,
+      250
+    ]
+  },
+  {
+    "notation": "214HP",
+    "damage": [
+      1000
+    ]
+  },
+  {
+    "notation": "214[HP]",
+    "damage": [
+      1000,
+      300
+    ]
+  },
+  {
+    "notation": "pf.214[HP]",
+    "damage": [
+      1200,
+      400
+    ]
+  },
+  {
+    "notation": "214PP",
+    "damage": [
+      400,
+      400
+    ]
+  },
+  {
+    "notation": "214PP~PP",
+    "damage": [
+      2500
+    ]
+  },
+  {
+    "notation": "j.214P",
+    "damage": [
+      700
+    ]
+  },
+  {
+    "notation": "j.214[P]",
+    "damage": [
+      1000
+    ]
+  },
+  {
+    "notation": "j.214PP",
+    "damage": [
+      1300
+    ]
+  },
+  {
+    "notation": "236K~P",
+    "damage": [
+      900
+    ]
+  },
+  {
+    "notation": "236K~K",
+    "damage": [
+      1200
+    ]
+  },
+  {
+    "notation": "236KK~P",
+    "damage": [
+      1300
+    ],
+    "starterScaling": 0.5
+  },
+  {
+    "notation": "236KK~K",
+    "damage": [
+      1200
+    ],
+    "starterScaling": 0.5
+  },
+  {
+    "notation": "236236P",
+    "damage": [
+      300,
+      300,
+      300,
+      300,
+      800
+    ],
+    "minimumScaling": 0.3
+  },
+  {
+    "notation": "214214P",
+    "damage": [
+      2800
+    ],
+    "minimumScaling": 0.4
+  },
+  {
+    "notation": "236236K",
+    "damage": [
+      4000
+    ],
+    "minimumScaling": 0.5,
+    "immediateScaling": 0.1
   }
 ]

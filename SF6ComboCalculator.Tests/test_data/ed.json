@@ -1,0 +1,72 @@
+[
+  {
+    "comboNotation": "5MP~HP > 214HP",
+    "expectedDamage": 1770,
+    "validated": true
+  },
+  {
+    "comboNotation": "5MP~HP > KK~dl.6P, 236LK",
+    "expectedDamage": 1900,
+    "validated": true
+  },
+  {
+    "comboNotation": "5MP~HP > KK~dl.6P, 623HP",
+    "expectedDamage": 2140,
+    "validated": true
+  },
+  {
+    "comboNotation": "j.HP, 5MP~HP, KK~6P > 623MP",
+    "expectedDamage": 2480,
+    "validated": true
+  },
+  {
+    "comboNotation": "j.HP, 5MP, 2LK > 623MP",
+    "expectedDamage": 2340,
+    "validated": true
+  },
+  {
+    "comboNotation": "HP > 236KK, 236HK, KK~dl.6P, 6HP",
+    "expectedDamage": 3085,
+    "validated": true
+  },
+  {
+    "comboNotation": "j.HP, 5HP > 236KK, 236KK, 623LP, 214LP",
+    "expectedDamage": 3710,
+    "validated": true
+  },
+  {
+    "comboNotation": "[5HP], dl.5HP > 236KK, 623LP, 214LP",
+    "expectedDamage": 3455,
+    "validated": true
+  },
+  {
+    "comboNotation": "5HP > 214214HP, 5HP > 236[HK], 623LP, 214LP",
+    "expectedDamage": 3745,
+    "validated": true
+  },
+  {
+    "comboNotation": "5HP > 214214HP, KK, 9, dl.jHK, KK > dl.6P, 214HP",
+    "expectedDamage": 3620,
+    "validated": true
+  },
+  {
+    "comboNotation": "5HP > 214214HP, 44, 9, dl.jHK, 236HK, 623LP, 214MP",
+    "expectedDamage": 4000,
+    "validated": true
+  },
+  {
+    "comboNotation": "5HP > 214PP > 214214LP, 623HP, 6HP, 623HP",
+    "expectedDamage": 4460,
+    "validated": true
+  },
+  {
+    "comboNotation": "5HP > 214PP > 214214LP, 623HP, KK > dl.6P, KK > dl.6P, 623HP",
+    "expectedDamage": 4445,
+    "validated": true
+  },
+  {
+    "comboNotation": "5HP > 214PP > 214214LP, 214HP, 623HP, 6HP, 6HP, 623HP",
+    "expectedDamage": 4860,
+    "validated": true
+  }
+]

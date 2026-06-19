@@ -1,28 +1,35 @@
 [
   {
     "comboNotation": "1HP > 63214HK > SA3",
-    "expectedDamage" : 4800,
+    "expectedDamage": 4800,
     "validated": true
   },
   {
     "comboNotation": "2LP > 2LP > 236MP ",
-    "expectedDamage" : 960,
+    "expectedDamage": 960,
     "validated": true
   },
   {
     "comboNotation": "2LP > 2LP > 63214MK",
-    "expectedDamage" : 1380,
+    "expectedDamage": 1380,
     "validated": true
   },
   {
     "comboNotation": "2LP > 2LP > DRC 5LP, 4MP > 63214HK",
-    "expectedDamage" : 1578,
+    "expectedDamage": 1578,
     "validated": true
   },
   {
     "comboNotation": "(PC) 5HK, 1HP > DRC 1HP, 4MK > 63214HK > 236236MP",
     "expectedDamage": 3978,
-    "expectedScaling" : [1,1,0.68,0.59,0.51, 0.34],
+    "expectedScaling": [
+      1,
+      1,
+      0.68,
+      0.59,
+      0.51,
+      0.34
+    ],
     "validated": true
   },
   {
@@ -33,7 +40,43 @@
   {
     "comboNotation": "DR (PC) 4HK, 4MP > 63214PP, 5HK > 236236HP",
     "expectedDamage": 4324,
-    "expectedScaling": [1,1,0.8,0.7,0.6],
+    "expectedScaling": [
+      1,
+      1,
+      0.8,
+      0.7,
+      0.6
+    ],
     "validated": true
+  },
+  {
+    "comboNotation": "5LK > 63214LP",
+    "expectedDamage": 940,
+    "validated": false
+  },
+  {
+    "comboNotation": "5LK > 63214MP",
+    "expectedDamage": 1080,
+    "validated": false
+  },
+  {
+    "comboNotation": "4MK, 2LP > 63214HK",
+    "expectedDamage": 1980,
+    "validated": false
+  },
+  {
+    "comboNotation": "1HP (max range) > 63214HP",
+    "expectedDamage": 2160,
+    "validated": false
+  },
+  {
+    "comboNotation": "1HP, 2LP > 63214HK",
+    "expectedDamage": 2220,
+    "validated": false
+  },
+  {
+    "comboNotation": "5HK > DRC 4HK, 5LP~2LP > 63214HK",
+    "expectedDamage": 2803,
+    "validated": false
   }
 ]

@@ -1,0 +1,37 @@
+[
+  {
+    "comboNotation": "[4]6HP,Drive Rush>3HP",
+    "expectedDamage": 2240,
+    "validated": false
+  },
+  {
+    "comboNotation": "5HK,5HP>2PP~P,[2]8MK",
+    "expectedDamage": 3150,
+    "validated": false
+  },
+  {
+    "comboNotation": "2MP>[4]6PP,j.MP>j.[4]6HP",
+    "expectedDamage": 2660,
+    "validated": false
+  },
+  {
+    "comboNotation": "Drive Rush>6MP,2LP,2LP>214P",
+    "expectedDamage": 1700,
+    "validated": false
+  },
+  {
+    "comboNotation": "Drive Rush>6MP,5LK>214P",
+    "expectedDamage": 1540,
+    "validated": false
+  },
+  {
+    "comboNotation": "Drive Rush>6MP,4HK,4LP>[4]6MP",
+    "expectedDamage": 2480,
+    "validated": false
+  },
+  {
+    "comboNotation": "Drive Rush>2MK,4MK,1MK>[4]6MP",
+    "expectedDamage": 2050,
+    "validated": false
+  }
+]

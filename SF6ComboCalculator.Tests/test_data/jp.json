@@ -1,0 +1,42 @@
+[
+  {
+    "comboNotation": "2LK > 2LP > 2LP > 236LP",
+    "expectedDamage": 1410,
+    "validated": false
+  },
+  {
+    "comboNotation": "5HK, 2MP > 236MP",
+    "expectedDamage": 2360,
+    "validated": false
+  },
+  {
+    "comboNotation": "5HK > 5HP > 236MP",
+    "expectedDamage": 2260,
+    "validated": false
+  },
+  {
+    "comboNotation": "6HK > 236HP, 5HP > 22LP",
+    "expectedDamage": 2900,
+    "validated": false
+  },
+  {
+    "comboNotation": "HPHK (PC), 236HP, 236MK , 22HP",
+    "expectedDamage": 2780,
+    "validated": false
+  },
+  {
+    "comboNotation": "HPHK (PC Juggle), j.MK, DR 6HK > 236HP, 236MK, 22HP",
+    "expectedDamage": 3071,
+    "validated": false
+  },
+  {
+    "comboNotation": "HPHK (PC), j.HK, dl. 6HK, 236MP, 5HP, 22LP",
+    "expectedDamage": 3430,
+    "validated": false
+  },
+  {
+    "comboNotation": "HPHK (Stun), 214P, j.MK (whiff), 5HP > 236MK, 6HK > 236MK, 5HP > 236KK, 22LP, 236LP",
+    "expectedDamage": 4020,
+    "validated": false
+  }
+]

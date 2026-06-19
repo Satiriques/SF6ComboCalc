@@ -33,5 +33,105 @@
     "comboNotation": "2HP, 2MP > 236HK",
     "expectedDamage": 2100,
     "validated": true
+  },
+  {
+    "comboNotation": "5LP~5LP > 236MK",
+    "expectedDamage": 1290,
+    "validated": false
+  },
+  {
+    "comboNotation": "Punish Counter Drive Impact, 5HP > 236HK",
+    "expectedDamage": 2300,
+    "validated": false
+  },
+  {
+    "comboNotation": "2LK~2LP~5LP > 236MK",
+    "expectedDamage": 1340,
+    "validated": false
+  },
+  {
+    "comboNotation": "4HK, DR 5HP~HK",
+    "expectedDamage": 1975,
+    "validated": false
+  },
+  {
+    "comboNotation": "4HK, 236MK, 623HK",
+    "expectedDamage": 2520,
+    "validated": false
+  },
+  {
+    "comboNotation": "5HP > DR 4HK, 236HK, 623HK",
+    "expectedDamage": 2868,
+    "validated": false
+  },
+  {
+    "comboNotation": "5HP > DR 4HK, DR, 5HP>214LP, 236LK, 623MK",
+    "expectedDamage": 3240,
+    "validated": false
+  },
+  {
+    "comboNotation": "5HP > DR 4HK, 4HK, 236MK, 623HK",
+    "expectedDamage": 3167,
+    "validated": false
+  },
+  {
+    "comboNotation": "5HP > DR 4HK, 4HK, DR, 5HP>236HK, 623HK",
+    "expectedDamage": 3357,
+    "validated": false
+  },
+  {
+    "comboNotation": "(CH) 5MP, 5HP > 236HK",
+    "expectedDamage": 2320,
+    "validated": false
+  },
+  {
+    "comboNotation": "(CH) 5MP, 5HP > DR 5HP > 236236K",
+    "expectedDamage": 3244,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC) 5LK > DR 5HP, 4MP~HK, j.MP > j.214K",
+    "expectedDamage": 2220,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC) 5HP > 214HP, 2LP > 236MK",
+    "expectedDamage": 2510,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC) 5HP > 236[HK], 623HK",
+    "expectedDamage": 2720,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC) 2HP, 4HK, SA3",
+    "expectedDamage": 4840,
+    "validated": false
+  },
+  {
+    "comboNotation": "Drive Impact (blocked), 5HP > 236LK, 623HK",
+    "expectedDamage": 2048,
+    "validated": false
+  },
+  {
+    "comboNotation": "Drive Impact (ground hit), 5HP > 236MK, \n623HK",
+    "expectedDamage": 2790,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC) Drive Impact, 2HP, 2MP > 236HK",
+    "expectedDamage": 2540,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC) Drive Impact, 4HK, 236MK, 623HK",
+    "expectedDamage": 2950,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC) Drive Impact, dl.5HP > 236LK, 236MK",
+    "expectedDamage": 2700,
+    "validated": false
   }
 ]

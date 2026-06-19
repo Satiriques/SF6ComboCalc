@@ -1,0 +1,57 @@
+[
+  {
+    "comboNotation": "6HP, 3MP > PP",
+    "expectedDamage": 2920,
+    "validated": false
+  },
+  {
+    "comboNotation": "j.2HP, 6HP, 3MP > PP",
+    "expectedDamage": 3420,
+    "validated": false
+  },
+  {
+    "comboNotation": "6HK, 3MP > PP",
+    "expectedDamage": 3480,
+    "validated": false
+  },
+  {
+    "comboNotation": "5HK, 3MP, tk j.360KK",
+    "expectedDamage": 4100,
+    "validated": false
+  },
+  {
+    "comboNotation": "5HK, DR 5LK > SA1",
+    "expectedDamage": 3325,
+    "validated": false
+  },
+  {
+    "comboNotation": "2HP, 6HK",
+    "expectedDamage": 2500,
+    "validated": false
+  },
+  {
+    "comboNotation": "j.[HK], 3MP > SA1",
+    "expectedDamage": 4700,
+    "validated": false
+  },
+  {
+    "comboNotation": "6HP > SA2",
+    "expectedDamage": 3370,
+    "validated": false
+  },
+  {
+    "comboNotation": "6HP > SA2[P], dl 5HK, tk j.360KK",
+    "expectedDamage": 3825,
+    "validated": false
+  },
+  {
+    "comboNotation": "J.[HK], 3MP > SA2, 360KK",
+    "expectedDamage": 5280,
+    "validated": false
+  },
+  {
+    "comboNotation": "J.[HK], 3MP > SA2, SA1",
+    "expectedDamage": 5230,
+    "validated": false
+  }
+]

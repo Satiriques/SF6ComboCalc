@@ -1,0 +1,17 @@
+[
+  {
+    "comboNotation": "2LP, 2LP, 5LP~MP~HP~HK",
+    "expectedDamage": 1319,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC) 5LK > 236MP",
+    "expectedDamage": 1188,
+    "validated": false
+  },
+  {
+    "comboNotation": "22MP (Spraycan), PC 2HP > 236MP (explosion),j.236PP, 6HK~j.MP, 236MP (1st hit) > SA3",
+    "expectedDamage": 5375,
+    "validated": false
+  }
+]

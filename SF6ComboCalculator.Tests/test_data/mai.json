@@ -1,0 +1,132 @@
+[
+  {
+    "comboNotation": "L > L > LP > 623HK",
+    "expectedDamage": 1470,
+    "validated": false
+  },
+  {
+    "comboNotation": "(LP,) 5LK~LK~LK > j.214P",
+    "expectedDamage": 1570,
+    "validated": false
+  },
+  {
+    "comboNotation": "(LP,) 5LK~LK~LK > j.214PP, SA1",
+    "expectedDamage": 2690,
+    "validated": false
+  },
+  {
+    "comboNotation": "L > L > 5LP > 236KK, j.MP > j.214P",
+    "expectedDamage": 1770,
+    "validated": false
+  },
+  {
+    "comboNotation": "L > L > 5LP > 236KK, j.MP, 623HK",
+    "expectedDamage": 1830,
+    "validated": false
+  },
+  {
+    "comboNotation": "L > L > 5LP > 236KK, j.MP, SA1",
+    "expectedDamage": 2070,
+    "validated": false
+  },
+  {
+    "comboNotation": "L > L > 5LP > 236KK, j.MP, dl.SA2",
+    "expectedDamage": 2590,
+    "validated": false
+  },
+  {
+    "comboNotation": "L > L > 5LP > 236KK, j.MP, j.214PP > j.SA2",
+    "expectedDamage": 2950,
+    "validated": false
+  },
+  {
+    "comboNotation": "L > LP > SA1",
+    "expectedDamage": 1940,
+    "validated": false
+  },
+  {
+    "comboNotation": "L > L > LP > SA2",
+    "expectedDamage": 2430,
+    "validated": false
+  },
+  {
+    "comboNotation": "L > L > LP > F.623HK",
+    "expectedDamage": 1530,
+    "validated": false
+  },
+  {
+    "comboNotation": "L > L > 5LP > F.214LP",
+    "expectedDamage": 1290,
+    "validated": false
+  },
+  {
+    "comboNotation": "L > L > 5LP > F.236KK, j.MP, SA1",
+    "expectedDamage": 2390,
+    "validated": false
+  },
+  {
+    "comboNotation": "L > L > 5LP > F.236KK, j.MP, F.SA1",
+    "expectedDamage": 2510,
+    "validated": false
+  },
+  {
+    "comboNotation": "L > L > 5LP > F.236KK, j.MP, dl.SA2",
+    "expectedDamage": 2710,
+    "validated": false
+  },
+  {
+    "comboNotation": "L > L > 5LP > F.236KK, j.MP, j.214PP > j.SA2",
+    "expectedDamage": 3190,
+    "validated": false
+  },
+  {
+    "comboNotation": "L > L > 5LP > F.214MP, F.SA1",
+    "expectedDamage": 2330,
+    "validated": false
+  },
+  {
+    "comboNotation": "L > L > 5LP > F.214MP, SA1",
+    "expectedDamage": 2210,
+    "validated": false
+  },
+  {
+    "comboNotation": "L > L > LP > F.SA1",
+    "expectedDamage": 2130,
+    "validated": false
+  },
+  {
+    "comboNotation": "L > L > LP > F.SA2",
+    "expectedDamage": 2550,
+    "validated": false
+  },
+  {
+    "comboNotation": "5LK~LK~LK > F.j.214P",
+    "expectedDamage": 1630,
+    "validated": false
+  },
+  {
+    "comboNotation": "5LK~LK~LK > F.j.214PP, F.214HP, F.SA1",
+    "expectedDamage": 3120,
+    "validated": false
+  },
+  {
+    "comboNotation": "4HK~HK",
+    "expectedDamage": 2000,
+    "validated": false
+  },
+  {
+    "comboNotation": "(PC) 5HK, 5HP > 236LK, 623LK",
+    "expectedDamage": 2820,
+    "validated": false
+  },
+  {
+    "comboNotation": "Drive Impact, 4HK~HK, 623MK",
+    "expectedDamage": 2880,
+    "validated": false
+  },
+  {
+    "comboNotation": "DR 6MP, 5LK~LK~LK > j.214P",
+    "expectedDamage": 2170,
+    "validated": false
+  }
+]
