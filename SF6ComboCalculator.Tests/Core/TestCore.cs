@@ -13,27 +13,21 @@ public class TestCore
         return fetcher.GetAllDataFiles();
     }
 
-    public static string[] GetVersions()
+    public static string[] GetCharacters()
     {
         var fetcher = new Fetcher();
-        return fetcher.GetAllVersions();
+        return fetcher.GetAllCharacters();
     }
 
-    public static string[] GetCharacters(string version)
-    {
-        var fetcher = new Fetcher();
-        return fetcher.GetAllCharacters(version);
-    }
-    
-    protected static readonly List<(string Version, 
-        string CharacterName, 
-        string Notation, 
-        int DamageExpected, 
-        decimal[] ExpectedScaling, 
+    protected static readonly List<(string CharacterName,
+        string Notation,
+        int DamageExpected,
+        decimal[] ExpectedScaling,
         int Level,
-        int Stocks)> _data = [];
-    
-    
+        int Stocks,
+        bool Validated)> _data = [];
+
+
     protected static void GenerateDataForTests()
     {
         if (_data.Count != 0)
@@ -41,27 +35,26 @@ public class TestCore
             return;
         }
 
-        var allTestFiles = Directory.GetFiles("./test_data/", "*.json", SearchOption.AllDirectories);
+        var allTestFiles = Directory.GetFiles("./test_data/", "*.json", SearchOption.TopDirectoryOnly);
 
         foreach (var testFile in allTestFiles)
         {
             var splittedPath = testFile.Split(Path.DirectorySeparatorChar, Path.AltDirectorySeparatorChar);
-            
-            var version = splittedPath[2];
-            var characterName = splittedPath[3].Replace(".json", string.Empty);
+
+            var characterName = splittedPath[2].Replace(".json", string.Empty);
 
             var fileContent = File.ReadAllText(testFile);
             var deserialized = JsonConvert.DeserializeObject<DataModel[]>(fileContent);
 
             foreach (var data in deserialized)
             {
-                _data.Add((version, 
-                    characterName, 
-                    data.ComboNotation, 
-                    data.ExpectedDamage, 
-                    data.ExpectedScaling, 
+                _data.Add((characterName,
+                    data.ComboNotation,
+                    data.ExpectedDamage,
+                    data.ExpectedScaling,
                     data.Level,
-                    data.Stocks));
+                    data.Stocks,
+                    data.Validated));
             }
         }
     }

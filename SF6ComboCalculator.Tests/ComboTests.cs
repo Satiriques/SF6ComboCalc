@@ -12,11 +12,11 @@ public class ComboTests : TestCore
 
         return _data.Select(data => (object[])
             [
-                data.Version, 
-                data.CharacterName, 
-                data.Notation, 
-                data.DamageExpected, 
+                data.CharacterName,
+                data.Notation,
+                data.DamageExpected,
                 data.ExpectedScaling,
+                data.Validated,
                 new CharacterStates()
                 {
                     Level = data.Level,
@@ -27,10 +27,13 @@ public class ComboTests : TestCore
 
     [Theory]
     [MemberData(nameof(ComboTestData))]
-    public void Combo_does_correct_amount_of_total_damage(string version, string characterName, string notation,
-        int damageExpected, decimal[] expectedScaling, CharacterStates characterStates)
+    public void Combo_does_correct_amount_of_total_damage(string characterName, string notation,
+        int damageExpected, decimal[] expectedScaling, bool validated, CharacterStates characterStates)
     {
-        var comboParser = ComboParser.From(characterName, version);
+        if (!validated)
+            throw new SkipException("not validated");
+
+        var comboParser = ComboParser.From(characterName);
 
         var result = comboParser.Parse(notation, characterStates);
 

@@ -15,10 +15,10 @@ public class ComboParser
         _attacks = attacks; 
     }
     
-    public static ComboParser From(string characterName, string version)
+    public static ComboParser From(string characterName)
     {
         var fetcher = new Fetcher();
-        return new ComboParser(fetcher.FetchAttacks(characterName, version));
+        return new ComboParser(fetcher.FetchAttacks(characterName));
     }
 
 

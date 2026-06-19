@@ -11,4 +11,5 @@ public class DataModel
     public decimal[] ExpectedScaling { get; set; }
     public int Level { get; set; } = 1;
     public int Stocks { get; set; }
+    public bool Validated { get; set; } = true;
 }

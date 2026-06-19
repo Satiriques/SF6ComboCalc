@@ -1,114 +1,142 @@
 [
   {
     "comboNotation": "2HP (PC) > 236HK, j.2MK > j.236KK",
-    "expectedDamage": 3440
+    "expectedDamage": 3440,
+    "validated": true
   },
   {
     "comboNotation": "2HP (PC) > 236HK, j.2MK > j.236KK, SA1",
-    "expectedDamage": 4290
+    "expectedDamage": 4290,
+    "validated": true
   },
   {
     "comboNotation": "2HP (PC) > ss.HK, j.MP > j.SA1",
-    "expectedDamage": 3660
+    "expectedDamage": 3660,
+    "validated": true
   },
   {
     "comboNotation": "2HP (PC) > ss.MK > 28HK",
-    "expectedDamage": 3000
+    "expectedDamage": 3000,
+    "validated": true
   },
   {
     "comboNotation": "2HP (PC) > ss.MK > 28KK, 236LK, SA1",
-    "expectedDamage": 4100
+    "expectedDamage": 4100,
+    "validated": true
   },
   {
     "comboNotation": "2HP (PC) > ss.MK > DRC 2HP > ss.MK > 28HK",
-    "expectedDamage": 3673
+    "expectedDamage": 3673,
+    "validated": true
   },
   {
     "comboNotation": "2HP > 236HK, 22HK",
-    "expectedDamage": 2860
+    "expectedDamage": 2860,
+    "validated": true
   },
   {
     "comboNotation": "2HP > 236HK, SA3",
-    "expectedDamage": 5100
+    "expectedDamage": 5100,
+    "validated": true
   },
   {
     "comboNotation": "2HP > SA2, dl. j.MP(1), 236HK, 22HK",
-    "expectedDamage": 3810
+    "expectedDamage": 3810,
+    "validated": true
   },
   {
     "comboNotation": "2HP > ss.HK, j.2MK, j.2MK, j.5HP~j.5HP",
-    "expectedDamage": 2600
+    "expectedDamage": 2600,
+    "validated": true
   },
   {
     "comboNotation": "2HP > ss.HK, j.2MK~j.2MK > j.236HK(4)",
-    "expectedDamage": 2578
+    "expectedDamage": 2578,
+    "validated": true
   },
   {
     "comboNotation": "2HP > ss.HK, j.MP > j.236HK(4)",
-    "expectedDamage": 2696
+    "expectedDamage": 2696,
+    "validated": true
   },
   {
     "comboNotation": "2HP > ss.HK, j.MP > j.236KK",
-    "expectedDamage": 3200
+    "expectedDamage": 3200,
+    "validated": true
   },
   {
     "comboNotation": "2MK > DRC 5MP, 4HP > ss.LK > DRC 4HP > ss.HK, j.2MK, j.2MK, j.HP~HP, SA3",
-    "expectedDamage": 4415
+    "expectedDamage": 4415,
+    "validated": true
   },
   {
     "comboNotation": "2MP (PC), ss.MK > [2]8HK",
-    "expectedDamage": 2640
+    "expectedDamage": 2640,
+    "validated": true
   },
   {
     "comboNotation": "5HK (PC) > ss.MK > 28HK",
-    "expectedDamage": 2700
+    "expectedDamage": 2700,
+    "validated": true
   },
   {
     "comboNotation": "5HK > ss.MK > 28HK",
-    "expectedDamage": 2520
+    "expectedDamage": 2520,
+    "validated": true
   },
   {
     "comboNotation": "5HK > ss.MK > 28MK",
-    "expectedDamage": 2380
+    "expectedDamage": 2380,
+    "validated": true
   },
   {
     "comboNotation": "5LP (CH), 2MK > 28MK",
-    "expectedDamage": 1600
+    "expectedDamage": 1600,
+    "validated": true
   },
   {
     "comboNotation": "5MP, 2MP > [2]8KK, 236LK, 22HK",
-    "expectedDamage": 3120
+    "expectedDamage": 3120,
+    "validated": true
   },
   {
     "comboNotation": "DR 4HP (PC) > 214HK, 2MP > 28HK",
-    "expectedDamage": 3620
+    "expectedDamage": 3620,
+    "validated": true
   },
   {
     "comboNotation": "DR 4HP (PC) > 214HK, 2MP > 28KK, 236LK, 22HK",
-    "expectedDamage": 4280
+    "expectedDamage": 4280,
+    "validated": true
   },
   {
     "comboNotation": "DR 4HP (PC) > 214HK, 2MP > 28KK, DR 5LP > ss.MK > 22HK",
-    "expectedDamage": 4097
+    "expectedDamage": 4097,
+    "validated": true
   },
   {
     "comboNotation": "DR 4HP (PC) > 214HK, 2MP > DRC 2HP > ss.MK > 46PP, 5MP, 2MP > DRC 2HP > ss.HK, j.2MK, j.2MK, j.HP~HP, SA3",
-    "expectedDamage": 6604
+    "expectedDamage": 6604,
+    "validated": true
   },
   {
     "comboNotation": "j.HK, 4HP > 236HK",
-    "expectedDamage": 2400
+    "expectedDamage": 2400,
+    "validated": true
   },
   {
     "comboNotation": "j.HP, 5HK > ss.MK > 28HK",
-    "expectedDamage": 3320
+    "expectedDamage": 3320,
+    "validated": true
   },
   {
     "comboNotation": "2HP (PC) > 214KK, 22HK",
-    "expectedDamage": 3120
+    "expectedDamage": 3120,
+    "validated": true
   },
   {
     "comboNotation": "j.2MK~j.2MK~j.2MK > j.SA1",
-    "expectedDamage": 2230
+    "expectedDamage": 2230,
+    "validated": true
   }
 ]
