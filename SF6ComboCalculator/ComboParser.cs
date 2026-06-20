@@ -27,16 +27,24 @@ public class ComboParser
         List<IAttack> unwrapedCombo = [];
         List<int> damagePerAttack = [];
         List<decimal> scalingPerAttack = [];
+        List<ComboStep> steps = [];
         states ??= new CharacterStates();
         
-        var splittedString = comboNotation.Split('>', ',');
+        var parts = Regex.Split(comboNotation, @"([>,])");
+        var splittedString = new List<(bool isCancelledInto, string str)>();
+        for (var i = 0; i < parts.Length; i++)
+        {
+            if (i % 2 == 0)
+                splittedString.Add((i > 0 && parts[i - 1] == ">", parts[i]));
+        }
+
         var adapter = new AttackModelAdapter();
         var numberOfStocks = states.NumberOfStocks;
 
-        for (var index = 0; index < splittedString.Length; index++)
+        for (var index = 0; index < splittedString.Count; index++)
         {
-            var str = splittedString[index];
-            
+            var (isCancelledInto, str) = splittedString[index];
+
             var (cleanString, isDrEnhanced, numberOfHits, isPunishCounter, isCounterHit) =
                 CleanupAttackString(str, index);
             
@@ -75,6 +83,7 @@ public class ComboParser
             attacksToAdd[0].IsDrEnhanced = isDrEnhanced;
             attacksToAdd[0].IsPunishCounter = isPunishCounter;
             attacksToAdd[0].IsCounterHit = isCounterHit;
+            attacksToAdd[0].IsCancelledInto = isCancelledInto;
             unwrapedCombo.AddRange(attacksToAdd);
         }
 
@@ -103,7 +112,8 @@ public class ComboParser
                 drScaling = .85M; // 15% penalty
             }
 
-            baseScaling -= attack.ImmediateScaling;
+            if (attack.IsCancelledInto)
+                baseScaling -= attack.ImmediateScaling;
 
             var damage = attack.CalculateDamage(baseScaling * drScaling * crushScaling, airborne, states);
             totalDamage += damage;
@@ -111,12 +121,17 @@ public class ComboParser
             damagePerAttack.Add(damage);
             var scaling = attack.CalculateScaling(baseScaling * drScaling * crushScaling);
             scalingPerAttack.Add(scaling);
+
+            var rawDamage = attack.GetRawDamage(airborne, states);
+            var landedAirborne = airborne;
+            var isStarter = false;
             var numberOfScalingHits = 1 + attack.NumberOfExtraScalingHits;
-            
+
             if (index == 0)
             {
                 baseScaling -= attack.StarterScaling;
                 hasStarterScaling = attack.StarterScaling != 0m;
+                isStarter = hasStarterScaling;
             }
             else if (index == 1 && !hasStarterScaling)
             {
@@ -132,8 +147,25 @@ public class ComboParser
             {
                 airborne = true;
             }
-            
+
             baseScaling = Math.Max(0.1m, baseScaling);
+
+            steps.Add(new ComboStep
+            {
+                Index = index,
+                Notation = attack.Notation,
+                RawDamage = rawDamage,
+                ScaledDamage = damage,
+                Scaling = scaling,
+                ScalingAfter = baseScaling,
+                IsStarter = isStarter,
+                IsCounterHit = attack.IsCounterHit,
+                IsPunishCounter = attack.IsPunishCounter,
+                IsDrEnhanced = attack.IsDrEnhanced,
+                Airborne = landedAirborne,
+                IsTargetComboPart = attack.IsTargetCombo,
+                ExtraScalingHits = attack.NumberOfExtraScalingHits
+            });
         }
 
         return new ComboParserResult()
@@ -141,7 +173,8 @@ public class ComboParser
             Combo = unwrapedCombo,
             TotalDamage = totalDamage,
             DamagePerAttack = damagePerAttack,
-            ScalingPerAttack = scalingPerAttack
+            ScalingPerAttack = scalingPerAttack,
+            Steps = steps
         };
     }
 
@@ -217,7 +250,8 @@ public class ComboParser
         var isDrEnhanced = str.Contains("DRC") || (str.Contains("DR") && index != 0);
         var cleanString = str.Replace("DRC", string.Empty)
             .Replace("dl.", string.Empty)
-            .Replace("DR", string.Empty)    
+            .Replace("jc.", string.Empty)
+            .Replace("DR", string.Empty)
             .Replace("dash",string.Empty);
 
         if (numberOfHitRegex.IsMatch(cleanString))

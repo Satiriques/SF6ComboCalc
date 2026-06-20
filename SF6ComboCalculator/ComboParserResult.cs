@@ -15,6 +15,9 @@ public class ComboParserResult
     [DebuggerDisplay("{ScalingDisplay,nq}")]
     public required List<decimal> ScalingPerAttack { get; set; }
 
+    /// <summary>Per-step breakdown used by the detailed console output. Same order as the combo.</summary>
+    public List<ComboStep> Steps { get; set; } = [];
+
     // Helper properties for the Debugger
     private string ComboDisplay => string.Join(", ", Combo.Select(a => a.GetType().Name));
     private string DamageDisplay => $"[{string.Join(", ", DamagePerAttack)}]";

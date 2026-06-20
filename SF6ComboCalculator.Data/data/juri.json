@@ -149,13 +149,15 @@
   },
   {
     "notation": "5MP~4HP~HP",
+    "aliases": [ "5MP~4HP~5HP" ],
     "damage": [
-      480
+      600
     ],
     "isTargetCombo": true
   },
   {
     "notation": "5MP~4HP~HP*",
+    "aliases": [ "5MP~4HP~5HP*" ],
     "damage": [
       600
     ],
@@ -237,6 +239,13 @@
       700,
       500
     ]
+  },
+  {
+    "notation": "236HK!~MK!",
+    "damage": [
+      600
+    ],
+    "isTargetCombo": true
   },
   {
     "notation": "236MKHK",
@@ -323,7 +332,12 @@
     "notation": "236236K",
     "aliases": [ "SA1" ],
     "damage": [
-      1800
+      200,
+      200,
+      200,
+      200,
+      300,
+      700
     ],
     "minimumScaling": 0.3
   },

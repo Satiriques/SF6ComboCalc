@@ -21,6 +21,17 @@ public class LevelEnhancedAttack : BaseAttack
     {
         return Truncate(Math.Max(baseScaling, MinimumScaling),2);
     }
-    
+
+    public override int[] GetRawDamage(bool airborne, CharacterStates characterStates)
+    {
+        if (characterStates.Level == 0)
+        {
+            throw new ArgumentException("level 0 is not possible");
+        }
+
+        var damage = Damage[characterStates.Level - 1];
+        return NumberOfHits is null ? damage : damage.Take(NumberOfHits.Value).ToArray();
+    }
+
     public required int[][] Damage { get; set; }
 }

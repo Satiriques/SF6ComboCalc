@@ -14,6 +14,7 @@ public abstract class BaseAttack : IAttack
     public int NumberOfExtraScalingHits { get; set; }
 
     public bool IsDrEnhanced { get; set; }
+    public bool IsCancelledInto { get; set; }
 
     public bool IsTargetCombo { get; set; }
     public bool MakesAirborne { get; set; }
@@ -23,6 +24,7 @@ public abstract class BaseAttack : IAttack
 
     public abstract int CalculateDamage(decimal baseScaling, bool airborne, CharacterStates characterStates);
     public abstract decimal CalculateScaling(decimal baseScaling);
+    public abstract int[] GetRawDamage(bool airborne, CharacterStates characterStates);
     
     protected decimal Truncate(decimal number, byte numberOfDecimals)
     {

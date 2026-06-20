@@ -19,7 +19,13 @@ public class MultiHitAttack : BaseAttack
     {
         return Truncate(Math.Max(baseScaling, MinimumScaling),2);
     }
-    
+
+    public override int[] GetRawDamage(bool airborne, CharacterStates characterStates)
+    {
+        var damage = airborne ? AirborneDamage ?? Damage : Damage;
+        return NumberOfHits is null ? damage : damage.Take(NumberOfHits.Value).ToArray();
+    }
+
     public required int[] Damage { get; init; }
     public int[]? AirborneDamage { get; init; }
 }

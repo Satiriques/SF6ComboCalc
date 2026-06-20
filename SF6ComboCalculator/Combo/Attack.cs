@@ -20,7 +20,12 @@ public class Attack : BaseAttack
         return Truncate(Math.Max(baseScaling, MinimumScaling),2);
     }
 
-    
+    public override int[] GetRawDamage(bool airborne, CharacterStates characterStates)
+    {
+        return [airborne ? AirborneDamage ?? Damage : Damage];
+    }
+
+
     public int? AirborneDamage { get; set; }
     public virtual int Damage { get; set; }
 }
