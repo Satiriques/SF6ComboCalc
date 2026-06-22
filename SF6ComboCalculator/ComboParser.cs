@@ -21,6 +21,26 @@ public class ComboParser
         return new ComboParser(fetcher.FetchAttacks(characterName));
     }
 
+    /// <summary>
+    /// All move notations and aliases known for this character, in data order with
+    /// duplicates removed. Used by the interactive console for tab-completion / ghost text.
+    /// </summary>
+    public IReadOnlyList<string> GetMoveSuggestions()
+    {
+        var seen = new HashSet<string>(StringComparer.InvariantCultureIgnoreCase);
+        var result = new List<string>();
+        foreach (var attack in _attacks)
+        {
+            foreach (var name in new[] { attack.Notation }.Concat(attack.Aliases ?? Array.Empty<string>()))
+            {
+                if (!string.IsNullOrWhiteSpace(name) && seen.Add(name))
+                    result.Add(name);
+            }
+        }
+
+        return result;
+    }
+
 
     public ComboParserResult Parse(string comboNotation, CharacterStates? states = null)
     {

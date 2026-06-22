@@ -22,6 +22,33 @@ This software is a work in progress.
 ---
 ## Usage
 
+```
+calculator <character> <combo> [--detailed] [--json] [--level N] [--stocks N]
+calculator <character> [combo]  --interactive  [--level N] [--stocks N]
+```
+
+- `--detailed` / `-d` : per-move table breakdown
+- `--json` : per-move breakdown as JSON (implies `--detailed`)
+- `--interactive` / `-i` : live combo builder (see below)
+- `--level N` : character level (level-based moves, e.g. Manon/Jamie)
+- `--stocks N` : number of stocks (`{s}` stock-enhanced moves)
+
+### Interactive mode
+
+`calculator juri --interactive`
+
+Opens a live combo builder for a character. As you type, the per-move damage table
+re-renders below the input line. It offers:
+
+- **Ghost text** — a dim suggestion of the best matching move for the token you're typing.
+- **Tab completion** — Tab completes the move under the cursor from the character's move
+  list; repeated Tab cycles through the matches (Shift+Tab cycles backwards).
+- **Right arrow** at the end of the line accepts the ghost suggestion.
+- **Enter** clears the current combo; **Esc** or **Ctrl+C** exits.
+
+You can optionally pass a starting combo to seed the editor, and `--level`/`--stocks`
+behave as in the other modes.
+
 ## Compiling
 
 You need the dotnet 8.0 sdk.  
