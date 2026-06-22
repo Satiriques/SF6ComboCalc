@@ -238,7 +238,8 @@
     "damage": [
       700,
       500
-    ]
+    ],
+    "starterScaling": 0.2
   },
   {
     "notation": "236HK!~MK!",
@@ -246,6 +247,29 @@
       600
     ],
     "isTargetCombo": true
+  },
+  {
+    "notation": "236HK!~MK!~HK!",
+    "damage": [
+      300
+    ],
+    "isTargetCombo": true
+  },
+  {
+    "notation": "236HK!~LK!",
+    "damage": [
+      600
+    ],
+    "isTargetCombo": true,
+    "numberOfExtraScalingHits": 1
+  },
+  {
+    "notation": "236HK!~LK!~MK!",
+    "damage": [
+      600
+    ],
+    "isTargetCombo": true,
+    "numberOfExtraScalingHits": 1
   },
   {
     "notation": "236MKHK",

@@ -79,7 +79,7 @@ public class ComboParser
                 attacksToAdd.Add(attack);
             }
             
-            attack.NumberOfHits = numberOfHits;
+            attacksToAdd[0].NumberOfHits = numberOfHits;
             attacksToAdd[0].IsDrEnhanced = isDrEnhanced;
             attacksToAdd[0].IsPunishCounter = isPunishCounter;
             attacksToAdd[0].IsCounterHit = isCounterHit;
