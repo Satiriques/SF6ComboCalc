@@ -322,12 +322,7 @@
   },
   {
     "notation": "214KK",
-    "damage": [
-      300,
-      300,
-      200,
-      200
-    ],
+    "damage": [300, 300, 200, 200],
     "numberOfExtraScalingHits": 1
   },
   {
@@ -337,7 +332,14 @@
     ]
   },
   {
-    "notation": "236PP~6LK or 236P~6P~6LK",
+    "notation": "236PP~6LK",
+    "damage": [
+      600,
+      600
+    ]
+  },
+  {
+    "notation": "236P~6P~6LK",
     "damage": [
       600,
       600
@@ -345,10 +347,9 @@
   },
   {
     "notation": "236P~6MK",
-    "damage": [
-      900
-    ],
-    "starterScaling": 0.3
+    "damage": [900],
+    "starterScaling": 0.3,
+    "aliases": ["6P~6MK"]
   },
   {
     "notation": "236PP~6MK or 236P~6P~6MK",

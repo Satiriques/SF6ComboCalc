@@ -1,0 +1,2 @@
+* have a better way to handle stuff like elena 214KK > 6P~MK, either by making the 6p ignored, and the calc shoudl know that 214KK > 6p only does 2 hites for the 214KK
+  * im not even sure that these will work because 236KK > 6P  isn't  the same as 236K > 6P

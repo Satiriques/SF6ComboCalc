@@ -20,7 +20,7 @@
     "validated": false
   },
   {
-    "comboNotation": "(CH) 2LP, 5MK > HK > 236HK",
+    "comboNotation": "(CH) 2LP, 5MK~HK > 236HK",
     "expectedDamage": 1820,
     "validated": false
   },
@@ -30,12 +30,12 @@
     "validated": false
   },
   {
-    "comboNotation": "(CH) 2LP, 5MK > HK > 214KK > 6P > 6MK, 236MK",
+    "comboNotation": "(CH) 2LP, 5MK~HK > 214KK > 6P~6MK, 236MK",
     "expectedDamage": 2280,
     "validated": false
   },
   {
-    "comboNotation": "(CH) 2LP, 5MK > HK > 214KK > 6P > 6MK, 236LK, 623LK",
+    "comboNotation": "(CH) 2LP, 5MK~HK > 214KK > 6P~6MK, 236LK, 623LK",
     "expectedDamage": 2350,
     "validated": false
   },
@@ -80,7 +80,7 @@
     "validated": false
   },
   {
-    "comboNotation": "MEATY 2MK, 5MK > HK > 214KK > 6P > 6MK, 236LK, 623HK",
+    "comboNotation": "MEATY 2MK, 5MK~HK > 214KK > 6P~6MK, 236LK, 623HK",
     "expectedDamage": 2630,
     "validated": false
   },
@@ -90,7 +90,7 @@
     "validated": false
   },
   {
-    "comboNotation": "(CH) 5MK, 5MK > HK > 236KK, 623HK",
+    "comboNotation": "(CH) 5MK, 5MK~HK > 236KK, 623HK",
     "expectedDamage": 2680,
     "validated": false
   },
